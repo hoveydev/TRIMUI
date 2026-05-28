@@ -18,13 +18,6 @@ cleanup() {
 is_valid_rom() {
     local file="$1"
     
-    if echo "$file" | grep -qiE '\.png$'; then
-        folder=$(dirname "$file")
-        if echo "$folder" | grep -qi "pico"; then
-            return 0
-        fi
-    fi
-    
     if echo "$file" | grep -qiE '\.(txt|log|cfg|ini)$'; then
         return 1
     fi
@@ -185,8 +178,9 @@ while true; do
                 continue
             fi
             ./show_message "Searching for $search_term" &
-            find /mnt/SDCARD/Roms -iname "*${search_term}*" | while read path; do
+            find /mnt/SDCARD/Roms -type f ! -path "*/.res/*" -iname "*${search_term}*" | while read path; do
                 if ! echo "$path" | grep -q "GAMESWITCHER"; then
+                    is_valid_rom "$path" || continue
                     name=$(basename "$path")
                     clean_name=$(echo "$name") 
                     echo "$clean_name|$path"
