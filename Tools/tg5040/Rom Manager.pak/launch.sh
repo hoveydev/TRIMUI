@@ -3,10 +3,11 @@
 SCRIPT_DIR="$(dirname "$0")"
 cd "$SCRIPT_DIR"
 
-export LD_LIBRARY_PATH="$SCRIPT_DIR/.lib:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="/usr/trimui/lib:$LD_LIBRARY_PATH"
 
 PICKER="./picker"
 SHOW_MESSAGE="./show_message"
+FONT_FILE="./minui.ttf"
 
 ROMS_BASE="/mnt/SDCARD/Roms"
 MENU_TXT="$ROMS_BASE/to_remove (CUSTOM)/menu.txt"
@@ -22,9 +23,7 @@ trap 'rm -f "$MAIN_MENU" "$LIST_MENU" "$BROWSE_MENU"' EXIT
 # Usage: delete_rom <full_rom_path>
 # -------------------------------------------------------------------
 delete_rom() {
-    local rom_path="$1"
-    local rom_dir rom_file img_path
-
+    rom_path="$1"
     rom_dir="$(dirname "$rom_path")"
     rom_file="$(basename "$rom_path")"
     img_path="$rom_dir/.res/$rom_file.png"
@@ -38,8 +37,8 @@ delete_rom() {
 # Usage: remove_from_menu_txt <full_rom_path>
 # -------------------------------------------------------------------
 remove_from_menu_txt() {
-    local rom_path="$1"
-    local tmp="/tmp/menu_txt_clean.txt"
+    rom_path="$1"
+    tmp="/tmp/menu_txt_clean.txt"
 
     [ -f "$MENU_TXT" ] || return
     grep -v "|$rom_path|" "$MENU_TXT" > "$tmp" && mv "$tmp" "$MENU_TXT"
@@ -54,7 +53,7 @@ mode_delete_from_list() {
         > "$LIST_MENU"
         echo "Delete from List|__HEADER__|header" >> "$LIST_MENU"
 
-        local found=0
+        found=0
         while IFS='|' read -r name path action; do
             # Skip header, blank lines, and collection markers
             [ -z "$name" ] && continue
@@ -62,45 +61,37 @@ mode_delete_from_list() {
             [ "$action" != "launch" ] && continue
 
             # Convert device path to local path for existence check
-            local local_path
-            local_path="$(echo "$path" | sed 's|/mnt/SDCARD|/mnt/SDCARD|g')"
-
             # Only include if file exists
-            [ -f "$local_path" ] || continue
+            [ -f "$path" ] || continue
 
-            local system
             system="$(echo "$path" | sed 's|.*/Roms/||' | sed 's|/.*||')"
             echo "$name [$system]|$path|delete" >> "$LIST_MENU"
             found=$((found + 1))
         done < "$MENU_TXT"
 
         if [ "$found" -eq 0 ]; then
-            "$SHOW_MESSAGE" "Delete from List|No pending ROMs found.|All entries may already be deleted." -l a
+            "$SHOW_MESSAGE" "Delete from List|No pending ROMs found.|All entries may already be deleted." -l a "$FONT_FILE"
             return
         fi
 
-        local sel st
-        sel="$("$PICKER" "$LIST_MENU" -a "DELETE" -b "BACK")"
+        sel="$("$PICKER" --font "$FONT_FILE" "$LIST_MENU" -a "DELETE" -b "BACK")"
         st=$?
 
         [ $st -eq 1 ] || [ -z "$sel" ] && return
 
-        local action
         action="$(echo "$sel" | cut -d'|' -f3)"
         [ "$action" = "header" ] && continue
 
-        local game_name rom_path
         game_name="$(echo "$sel" | cut -d'|' -f1)"
         rom_path="$(echo "$sel" | cut -d'|' -f2)"
-        local rom_file
         rom_file="$(basename "$rom_path")"
 
-        "$SHOW_MESSAGE" "Delete ROM?|$rom_file" -l ab -a "YES" -b "NO"
+        "$SHOW_MESSAGE" "Delete ROM?|$rom_file" -l ab -a "YES" -b "NO" "$FONT_FILE"
         [ $? -ne 0 ] && continue
 
         delete_rom "$rom_path"
         remove_from_menu_txt "$rom_path"
-        "$SHOW_MESSAGE" "Deleted|$rom_file" -t 2
+        "$SHOW_MESSAGE" "Deleted|$rom_file" -t 2 "$FONT_FILE"
     done
 }
 
@@ -112,9 +103,8 @@ mode_browse_and_delete() {
         > "$BROWSE_MENU"
         echo "Browse & Delete|__HEADER__|header" >> "$BROWSE_MENU"
 
-        local count=0
+        count=0
         for system_dir in "$ROMS_BASE"/*/; do
-            local system_name
             system_name="$(basename "$system_dir")"
 
             # Skip special/hidden directories
@@ -124,7 +114,6 @@ mode_browse_and_delete() {
 
             for rom in "$system_dir"*; do
                 [ -f "$rom" ] || continue
-                local rom_file
                 rom_file="$(basename "$rom")"
                 # Skip hidden files
                 case "$rom_file" in
@@ -136,30 +125,27 @@ mode_browse_and_delete() {
         done
 
         if [ "$count" -eq 0 ]; then
-            "$SHOW_MESSAGE" "Browse & Delete|No ROMs found." -l a
+            "$SHOW_MESSAGE" "Browse & Delete|No ROMs found." -l a "$FONT_FILE"
             return
         fi
 
-        local sel st
-        sel="$("$PICKER" "$BROWSE_MENU" -a "DELETE" -b "BACK")"
+        sel="$("$PICKER" --font "$FONT_FILE" "$BROWSE_MENU" -a "DELETE" -b "BACK")"
         st=$?
 
         [ $st -eq 1 ] || [ -z "$sel" ] && return
 
-        local action
         action="$(echo "$sel" | cut -d'|' -f3)"
         [ "$action" = "header" ] && continue
 
-        local rom_path rom_file
         rom_path="$(echo "$sel" | cut -d'|' -f2)"
         rom_file="$(basename "$rom_path")"
 
-        "$SHOW_MESSAGE" "Delete ROM?|$rom_file" -l ab -a "YES" -b "NO"
+        "$SHOW_MESSAGE" "Delete ROM?|$rom_file" -l ab -a "YES" -b "NO" "$FONT_FILE"
         [ $? -ne 0 ] && continue
 
         delete_rom "$rom_path"
         remove_from_menu_txt "$rom_path"
-        "$SHOW_MESSAGE" "Deleted|$rom_file" -t 2
+        "$SHOW_MESSAGE" "Deleted|$rom_file" -t 2 "$FONT_FILE"
     done
 }
 
@@ -172,7 +158,7 @@ while true; do
     echo "Delete from List|list|action" >> "$MAIN_MENU"
     echo "Browse & Delete|browse|action" >> "$MAIN_MENU"
 
-    SEL="$("$PICKER" "$MAIN_MENU" -a "SELECT" -b "EXIT")"
+    SEL="$("$PICKER" --font "$FONT_FILE" "$MAIN_MENU" -a "SELECT" -b "EXIT")"
     ST=$?
 
     [ $ST -eq 1 ] || [ -z "$SEL" ] && exit 0
