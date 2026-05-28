@@ -20,6 +20,15 @@ MENU_TMP="/tmp/rom_manager_menu_tmp.txt"
 
 trap 'rm -f "$MAIN_MENU" "$DELETE_MENU" "$SEARCH_MENU" "$MENU_TMP"' EXIT
 
+is_valid_rom() {
+    local file="$1"
+    case "$file" in
+        *.png|*.jpg|*.jpeg|*.bmp|*.gif|*.tiff|*.webp) return 1 ;;
+        *.txt|*.log|*.cfg|*.ini|*.xml|*.json|*.md|*.html|*.css|*.js|*.map) return 1 ;;
+    esac
+    return 0
+}
+
 delete_rom() {
     rom_path="$1"
     rom_dir="$(dirname "$rom_path")"
@@ -102,6 +111,7 @@ search_and_delete() {
 
         find "$ROMS_BASE" -type f ! -path "*/.res/*" ! -path "*/to_remove (CUSTOM)/*" ! -name ".*" -iname "*$search_term*" | sort | while IFS= read -r path; do
             [ -f "$path" ] || continue
+            is_valid_rom "$path" || continue
             rom_file="$(basename "$path")"
             system_name="$(basename "$(dirname "$path")")"
             echo "$rom_file [$system_name]|$path|delete" >> "$SEARCH_MENU"
