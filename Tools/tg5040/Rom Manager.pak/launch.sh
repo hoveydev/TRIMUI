@@ -3,6 +3,8 @@
 SCRIPT_DIR="$(dirname "$0")"
 cd "$SCRIPT_DIR"
 
+export LD_LIBRARY_PATH="$SCRIPT_DIR/.lib:$LD_LIBRARY_PATH"
+
 PICKER="./picker"
 SHOW_MESSAGE="./show_message"
 
