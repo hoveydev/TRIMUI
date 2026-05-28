@@ -1,0 +1,5 @@
+Pak Manager|__HEADER__|header
+Gaming (7/11)|Gaming|category
+Media (3/5)|Media|category
+Settings and Visuals (5/8)|Settings and Visuals|category
+Utilities (5/14)|Utilities|category

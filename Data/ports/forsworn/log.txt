@@ -1,0 +1,605 @@
+umount: can't unmount /tmp/weston: Invalid argument
+umount: can't unmount /tmp/godot: Invalid argument
+Westonwrap 0.2.7.1
+[GPTK]: Running in UINPUT output mode.
+gptokeyb is running, using it as a kill signal
+bash: bad number
+Running in aarch64 mode
+Checking if gptokeyb is still running...
+rm: can't remove '/tmp/fonts': No such file or directory
+rm: can't remove '/tmp/share': No such file or directory
+rm: can't remove '/tmp/.X11-unix': No such file or directory
+current_mode 1024x768
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 3 /dev/input/event4
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+MALI_CreateWindow:0x55c7702d90 done.
+Error: libgbm.so.1: cannot open shared object file: No such file or directory
+System does not have GBM/DRM support, setting up fake DRM device
+mkdir: can't create directory '/dev/dri': File exists
+mknod: /dev/dri/card0: File exists
+Setting up Headless backend
+Setting virtual resolution to 1024 x 768
+Setting up No-Op renderer
+Setting up Kiosk shell
+Found libGL at LIBGL: Initialising gl4es
+LIBGL: v1.1.5 built on Oct 31 2021 19:44:11
+LIBGL: Using GLES 2.0 backend
+LIBGL: loaded: libGLESv2.so
+LIBGL: loaded: libEGL.so
+LIBGL: loaded: libdrm.so.2
+LIBGL: Using GLES 2.0 backend
+LIBGL: Hardware Full NPOT detected and used
+LIBGL: Extension GL_EXT_blend_minmax  detected and used
+LIBGL: Extension GL_EXT_draw_buffers  detected and used
+LIBGL: FBO are in core, and so used
+LIBGL: PointSprite are in core, and so used
+LIBGL: CubeMap are in core, and so used
+LIBGL: BlendColor is in core, and so used
+LIBGL: Blend Subtract is in core, and so used
+LIBGL: Blend Function and Equation Separation is in core, and so used
+LIBGL: Texture Mirrored Repeat is in core, and so used
+LIBGL: Extension GL_OES_mapbuffer  detected
+LIBGL: Extension GL_OES_element_index_uint  detected and used
+LIBGL: Extension GL_OES_packed_depth_stencil  detected and used
+LIBGL: Extension GL_OES_depth24  detected and used
+LIBGL: Extension GL_OES_rgb8_rgba8  detected and used
+LIBGL: Extension GL_EXT_multi_draw_arrays  detected
+LIBGL: Extension GL_EXT_texture_format_BGRA8888  detected and used
+LIBGL: Extension GL_OES_depth_texture  detected and used
+LIBGL: Extension GL_OES_texture_stencil8  detected and used
+LIBGL: Extension GL_EXT_texture_rg  detected and used
+LIBGL: Extension GL_OES_texture_float  detected and used
+LIBGL: Extension GL_OES_texture_half_float  detected and used
+LIBGL: Extension GL_EXT_color_buffer_float  detected and used
+LIBGL: Extension GL_EXT_color_buffer_half_float  detected and used
+LIBGL: Extension GL_OES_fragment_precision_high  detected and used
+LIBGL: Extension GL_EXT_shader_texture_lod detected and used
+LIBGL: Max vertex attrib: 16
+LIBGL: Extension GL_OES_standard_derivatives  detected and used
+LIBGL: Max texture size: 8192
+LIBGL: Max Varying Vector: 15
+LIBGL: Texture Units: 16/16 (hardware: 16), Max lights: 8, Max planes: 6
+LIBGL: Max Color Attachments: 8 / Draw buffers: 8
+LIBGL: Hardware vendor is Imagination Technologies
+LIBGL: GLSL 300 es supported
+LIBGL: GLSL 310 es supported and used
+LIBGL: sRGB surface supported
+LIBGL: EGLImage to Texture2D supported
+LIBGL: EGLImage to RenderBuffer supported
+LIBGL: Targeting OpenGL 2.1
+LIBGL: NPOT texture handled in hardware
+LIBGL: Not trying to batch small subsequent glDrawXXXX
+LIBGL: try to use VBO
+LIBGL: FBO workaround for using binded texture enabled
+LIBGL: Force texture for Attachment color0 on FBO
+LIBGL: Hack to trigger a SwapBuffers when a Full Framebuffer Blit on default FBO is done
+LIBGL: glX Will try to recycle EGL Surface
+LIBGL: Current folder is:/mnt/SDCARD/Data/ports/forsworn
+/mnt/SDCARD/System/lib/libGL.so.1
+LIBGL: Shuting down
+strings: LIBGL:: No such file or directory
+strings: Initialising: No such file or directory
+strings: gl4es: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: v1.1.5: No such file or directory
+strings: built: No such file or directory
+strings: on: No such file or directory
+strings: Oct: No such file or directory
+strings: 31: No such file or directory
+strings: 2021: No such file or directory
+strings: 19:44:11: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Using: No such file or directory
+strings: GLES: No such file or directory
+strings: 2.0: No such file or directory
+strings: backend: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: loaded:: No such file or directory
+strings: libGLESv2.so: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: loaded:: No such file or directory
+strings: libEGL.so: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: loaded:: No such file or directory
+strings: libdrm.so.2: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Using: No such file or directory
+strings: GLES: No such file or directory
+strings: 2.0: No such file or directory
+strings: backend: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Hardware: No such file or directory
+strings: Full: No such file or directory
+strings: NPOT: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_EXT_blend_minmax: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_EXT_draw_buffers: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: FBO: No such file or directory
+strings: are: No such file or directory
+strings: in: No such file or directory
+strings: core,: No such file or directory
+strings: and: No such file or directory
+strings: so: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: PointSprite: No such file or directory
+strings: are: No such file or directory
+strings: in: No such file or directory
+strings: core,: No such file or directory
+strings: and: No such file or directory
+strings: so: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: CubeMap: No such file or directory
+strings: are: No such file or directory
+strings: in: No such file or directory
+strings: core,: No such file or directory
+strings: and: No such file or directory
+strings: so: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: BlendColor: No such file or directory
+strings: is: No such file or directory
+strings: in: No such file or directory
+strings: core,: No such file or directory
+strings: and: No such file or directory
+strings: so: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Blend: No such file or directory
+strings: Subtract: No such file or directory
+strings: is: No such file or directory
+strings: in: No such file or directory
+strings: core,: No such file or directory
+strings: and: No such file or directory
+strings: so: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Blend: No such file or directory
+strings: Function: No such file or directory
+strings: and: No such file or directory
+strings: Equation: No such file or directory
+strings: Separation: No such file or directory
+strings: is: No such file or directory
+strings: in: No such file or directory
+strings: core,: No such file or directory
+strings: and: No such file or directory
+strings: so: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Texture: No such file or directory
+strings: Mirrored: No such file or directory
+strings: Repeat: No such file or directory
+strings: is: No such file or directory
+strings: in: No such file or directory
+strings: core,: No such file or directory
+strings: and: No such file or directory
+strings: so: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_mapbuffer: No such file or directory
+strings: detected: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_element_index_uint: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_packed_depth_stencil: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_depth24: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_rgb8_rgba8: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_EXT_multi_draw_arrays: No such file or directory
+strings: detected: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_EXT_texture_format_BGRA8888: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_depth_texture: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_texture_stencil8: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_EXT_texture_rg: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_texture_float: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_texture_half_float: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_EXT_color_buffer_float: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_EXT_color_buffer_half_float: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_fragment_precision_high: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_EXT_shader_texture_lod: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Max: No such file or directory
+strings: vertex: No such file or directory
+strings: attrib:: No such file or directory
+strings: 16: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Extension: No such file or directory
+strings: GL_OES_standard_derivatives: No such file or directory
+strings: detected: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Max: No such file or directory
+strings: texture: No such file or directory
+strings: size:: No such file or directory
+strings: 8192: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Max: No such file or directory
+strings: Varying: No such file or directory
+strings: Vector:: No such file or directory
+strings: 15: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Texture: No such file or directory
+strings: Units:: No such file or directory
+strings: 16/16: No such file or directory
+strings: (hardware:: No such file or directory
+strings: 16),: No such file or directory
+strings: Max: No such file or directory
+strings: lights:: No such file or directory
+strings: 8,: No such file or directory
+strings: Max: No such file or directory
+strings: planes:: No such file or directory
+strings: 6: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Max: No such file or directory
+strings: Color: No such file or directory
+strings: Attachments:: No such file or directory
+strings: 8: No such file or directory
+strings: Draw: No such file or directory
+strings: buffers:: No such file or directory
+strings: 8: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Hardware: No such file or directory
+strings: vendor: No such file or directory
+strings: is: No such file or directory
+strings: Imagination: No such file or directory
+strings: Technologies: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: GLSL: No such file or directory
+strings: 300: No such file or directory
+strings: es: No such file or directory
+strings: supported: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: GLSL: No such file or directory
+strings: 310: No such file or directory
+strings: es: No such file or directory
+strings: supported: No such file or directory
+strings: and: No such file or directory
+strings: used: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: sRGB: No such file or directory
+strings: surface: No such file or directory
+strings: supported: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: EGLImage: No such file or directory
+strings: to: No such file or directory
+strings: Texture2D: No such file or directory
+strings: supported: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: EGLImage: No such file or directory
+strings: to: No such file or directory
+strings: RenderBuffer: No such file or directory
+strings: supported: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Targeting: No such file or directory
+strings: OpenGL: No such file or directory
+strings: 2.1: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: NPOT: No such file or directory
+strings: texture: No such file or directory
+strings: handled: No such file or directory
+strings: in: No such file or directory
+strings: hardware: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Not: No such file or directory
+strings: trying: No such file or directory
+strings: to: No such file or directory
+strings: batch: No such file or directory
+strings: small: No such file or directory
+strings: subsequent: No such file or directory
+strings: glDrawXXXX: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: try: No such file or directory
+strings: to: No such file or directory
+strings: use: No such file or directory
+strings: VBO: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: FBO: No such file or directory
+strings: workaround: No such file or directory
+strings: for: No such file or directory
+strings: using: No such file or directory
+strings: binded: No such file or directory
+strings: texture: No such file or directory
+strings: enabled: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Force: No such file or directory
+strings: texture: No such file or directory
+strings: for: No such file or directory
+strings: Attachment: No such file or directory
+strings: color0: No such file or directory
+strings: on: No such file or directory
+strings: FBO: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Hack: No such file or directory
+strings: to: No such file or directory
+strings: trigger: No such file or directory
+strings: a: No such file or directory
+strings: SwapBuffers: No such file or directory
+strings: when: No such file or directory
+strings: a: No such file or directory
+strings: Full: No such file or directory
+strings: Framebuffer: No such file or directory
+strings: Blit: No such file or directory
+strings: on: No such file or directory
+strings: default: No such file or directory
+strings: FBO: No such file or directory
+strings: is: No such file or directory
+strings: done: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: glX: No such file or directory
+strings: Will: No such file or directory
+strings: try: No such file or directory
+strings: to: No such file or directory
+strings: recycle: No such file or directory
+strings: EGL: No such file or directory
+strings: Surface: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Current: No such file or directory
+strings: folder: No such file or directory
+strings: is:/mnt/SDCARD/Data/ports/forsworn: No such file or directory
+strings: LIBGL:: No such file or directory
+strings: Shuting: No such file or directory
+strings: down: No such file or directory
+..but it's GL4ES, so we're using our copy of Mesa anyway
+Setting up system Libs
+Setting up crusty_x11egl
+Prep for CrustyGBM is required...
+Setting up Crusty references
+Setting up XDG_RUNTIME_DIR
+Starting Seatd
+00:00:00.000 [INFO] [seatd/seat.c:39] Created VT-bound seat seat0
+00:00:00.009 [INFO] [seatd/seatd.c:194] seatd started
+Checking if gptokeyb is still running...
+raconf=
+ROMS_PATH=/mnt/SDCARD/Roms
+PM_PORTNAME=Forsworn
+CFW_NAME=TrimUI
+gllib_path=/tmp/weston/lib_aarch64/graphics/crusty_x11egl/
+SAVES_PATH=/mnt/SDCARD/Saves
+XDG_SESSION_TYPE=x11
+SHLVL=8
+LD_LIBRARY_PATH=:/tmp/weston/lib_aarch64:/mnt/SDCARD/System/lib:/usr/trimui/lib:/mnt/SDCARD/System/lib:/usr/trimui/lib:/mnt/SDCARD/System/lib:/usr/trimui/lib:/mnt/SDCARD/.system/tg5040/lib:/usr/trimui/lib:
+GPTOKEYB2= env LD_PRELOAD=/mnt/SDCARD/Apps/PortMaster/PortMaster/libinterpose.aarch64.so /mnt/SDCARD/Apps/PortMaster/PortMaster/gptokeyb2 -1
+libweston_dir=/tmp/weston/lib_aarch64/libweston-14
+gllib_preload=/tmp/weston/lib_aarch64/graphics/crusty_x11egl//libcrusty.so
+HOME=/mnt/SDCARD/Data/home
+DATETIME_PATH=/mnt/SDCARD/.userdata/shared/datetime.txt
+OLDPWD=/mnt/SDCARD/Data/ports/forsworn
+EX_CONFIG_PATH=/mnt/SDCARD/System/etc
+TRIMUI_VERSION=20241215
+ESUDO=
+DEVICE_RAM=1
+ANALOG_STICKS=0
+partitions=bootloader@mmcblk0p1:env@mmcblk0p2:env-redund@mmcblk0p3:boot@mmcblk0p4:rootfs@mmcblk0p5:rootfs_data@mmcblk0p6:private@mmcblk0p7:recovery@mmcblk0p8:pstore@mmcblk0p9:UDISK@mmcblk0p10
+directory=mnt/SDCARD/Data
+WESTON_HEADLESS_HEIGHT=768
+DEVICE_HAS_AARCH64=Y
+WESTON_MODULE_MAP=x11-backend.so=/tmp/weston/lib_aarch64/libweston-14/x11-backend.so;wayland-backend.so=/tmp/weston/lib_aarch64/libweston-14/wayland-backend.so;drm-backend.so=/tmp/weston/lib_aarch64/libweston-14/drm-backend.so;headless-backend.so=/tmp/weston/lib_aarch64/libweston-14/headless-backend.so;gl-renderer.so=/tmp/weston/lib_aarch64/libweston-14/gl-renderer.so;kiosk-shell.so=/tmp/weston/lib_aarch64/weston/kiosk-shell.so;desktop-shell.so=/tmp/weston/lib_aarch64/weston/desktop-shell.so;fullscreen-shell.so=/tmp/weston/lib_aarch64/weston/fullscreen-shell.so;xwayland.so=/tmp/weston/lib_aarch64/libweston-14/xwayland.so;
+PM_RESOURCE_DIR=/mnt/SDCARD/Apps/PortMaster/PortMaster/resources
+weston_shell=kiosk-shell.so
+LOGS_PATH=/mnt/SDCARD/.userdata/tg5040/logs
+XWAYLAND_LD_LIBRARY_PATH=/tmp/weston/lib_aarch64/graphics/mesa_x11_stub
+SDCARD_PATH=/mnt/SDCARD
+SHARED_USERDATA_PATH=/mnt/SDCARD/.userdata/shared
+DISPLAY_HEIGHT=768
+raloc=/mnt/SDCARD/Tools/tg5040/RetroArch.pak
+boot_type=2
+DEVICE_CPU=a133plus
+CORES_PATH=/mnt/SDCARD/.system/tg5040/cores
+SDL_GAMECONTROLLERCONFIG_FILE=//mnt/SDCARD/Apps/PortMaster/PortMaster/gamecontrollerdb.txt
+PM_VERSION=2026.04.01-1426
+game_dir=/mnt/SDCARD/Data/ports/forsworn
+XKB_CONFIG_ROOT=/tmp/share/xkb
+weston_renderer=--renderer=noop
+USERDATA_PATH=/mnt/SDCARD/.userdata/tg5040
+PM_CAN_MOUNT=Y
+TERM=linux
+PYSDL2_DLL_PATH=/usr/lib
+CRUSTY_BLOCK_INPUT=1
+TRIMUI_MODEL=Trimui Brick
+PATH=/mnt/SDCARD/System/bin:/mnt/SDCARD/System/bin:/mnt/SDCARD/System/bin:/mnt/SDCARD/.system/tg5040/bin:/usr/trimui/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PLATFORM=tg5040
+weston_preload=
+CRUSTY_LIBEGL=/usr/lib64/libEGL.so
+NETWORK_FIX=N
+DEVICE_HAS_X86=N
+XDG_RUNTIME_DIR=/tmp/weston_runtime
+uboot_message=2018.05(12/12/2024-21:45:17)
+NETWORK_SFTPGO=Y
+WESTON_LIBEXEC_DIR=/tmp/weston/libexec
+LD_PRELOAD=
+SYSTEM_PATH=/mnt/SDCARD/.system/tg5040
+controlfolder=/mnt/SDCARD/Apps/PortMaster/PortMaster
+DEVICE_INFO_VERSION=0.1.15
+PM_FUNCS_VERSION=3
+DISPLAY_ORIENTATION=0
+weston_dir=/tmp/weston
+WESTON_CONFIG=/tmp/weston/weston.ini
+APP_LIBRARY_PATH=/tmp/weston/lib_aarch64/extra_wayland/:/tmp/weston/lib_aarch64
+EX_RESOURCE_PATH=/mnt/SDCARD/System/resources
+PM_SCRIPTNAME=Forsworn.sh
+DEVICE_HAS_X86_64=N
+CFW_GLIBC=233
+WESTON_HEADLESS_WIDTH=1024
+NETWORK_SSH=Y
+DEVICE_ARCH=aarch64
+weston_backend=headless
+CFW_VERSION=1.0.6
+DEVICE_NAME=TrimUI Brick
+WESTON_DATA_DIR=/tmp/weston/data
+CRUSTY_LIBSDL=/usr/trimui/lib/libSDL2-2.0.so.0
+PWD=/tmp/weston
+ESUDOKILL=-1
+ASPECT_X=4
+GPTOKEYB= /mnt/SDCARD/Apps/PortMaster/PortMaster/gptokeyb -1
+DEVICE_HAS_ARMHF=N
+DISPLAY_WIDTH=1024
+ASPECT_Y=3
+westonmod_dir=/tmp/weston/lib_aarch64/weston
+rotpk_status=0
+BIOS_PATH=/mnt/SDCARD/Bios
+DEVICE=brick
+Starting Weston
+./wp_weston: /tmp/weston/lib_aarch64/libxkbcommon.so.0: no version information available (required by /tmp/weston/lib_aarch64/libweston-14.so.0)
+Date: 2026-05-27 CST
+[18:15:15.391] weston 13.0.90
+               https://wayland.freedesktop.org
+               Bug reports to: https://gitlab.freedesktop.org/wayland/weston/issues/
+               Build: 13.0.0-110-g215cceb4+
+[18:15:15.391] Command line: ./wp_weston -c /tmp/weston/weston.ini -B headless --renderer=noop --shell=kiosk-shell.so -i0 -Swayland-5 --xwayland
+[18:15:15.391] OS: Linux, 4.9.191, #804 SMP PREEMPT Sun Dec 15 07:43:14 UTC 2024, aarch64
+[18:15:15.391] Flight recorder: enabled
+[18:15:15.395] Using config file '/tmp/weston/weston.ini'
+[18:15:15.400] Output repaint window is 7 ms maximum.
+[18:15:15.412] Loading module '/tmp/weston/lib_aarch64/libweston-14/headless-backend.so'
+[18:15:15.539] Trying libseat launcher...
+00:00:00.813 [INFO] [seatd/server.c:146] New client connected (pid: 4593, uid: 0, gid: 0)
+00:00:00.813 [INFO] [seatd/seat.c:169] Added client 1 to seat0
+00:00:00.813 [INFO] [seatd/seat.c:459] Opened client 1 on seat0
+[18:15:15.540] [libseat/libseat.c:73] Seat opened with backend 'seatd'
+[18:15:15.540] [libseat/backend/seatd.c:212] Enabling seat
+[18:15:15.540] libseat: session control granted
+[18:15:15.540] 0x7fccb74750 0x557b6c8740 0x557b6d22c0 seat0 0x7f78f66678
+[18:15:15.574] event1  - axp2202-pek: not tagged as supported input device
+[18:15:15.597] event1  - not using input device '/dev/input/event1'
+[18:15:15.601] event2  - audiocodec sunxi Audio Jack: not tagged as supported input device
+[18:15:15.625] event2  - not using input device '/dev/input/event2'
+[18:15:15.628] event0  - sunxi-keyboard: not tagged as supported input device
+[18:15:15.649] event0  - not using input device '/dev/input/event0'
+[18:15:15.652] event3  - TRIMUI Player1: not tagged as supported input device
+[18:15:15.677] event3  - not using input device '/dev/input/event3'
+[18:15:15.680] event4  - Fake Keyboard: not tagged as supported input device
+[18:15:15.717] event4  - not using input device '/dev/input/event4'
+[18:15:15.718] warning: no input devices on entering Weston. Possible causes:
+	- no permissions to read /dev/input/event*
+	- seats misconfigured (Weston backend option 'seat', udev device property ID_SEAT)
+[18:15:15.718] failed to create input devices
+[18:15:15.718] fatal: failed to create compositor backend
+[18:15:15.718] no-op renderer SHM seed: 0
+00:00:01.030 [INFO] [seatd/client.c:465] Client disconnected
+00:00:01.030 [INFO] [seatd/seat.c:400] No clients on seat0 to activate
+00:00:01.031 [INFO] [seatd/seat.c:499] Closed client 1 on seat0
+seatd: ../common/linked_list.c:23: linked_list_remove: Assertion `elem->prev != NULL && elem->next != NULL' failed.
+Terminated
+Westonwrap 0.2.7.1
+gptokeyb is running, using it as a kill signal
+bash: bad number
+Running in aarch64 mode
+Cleaning up
+rm: can't remove '/tmp/weston_runtime/wayland-0.lock': No such file or directory
+current_mode 1024x768
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 3 /dev/input/event4
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+MALI_CreateWindow:0x55a226cd90 done.

@@ -1,0 +1,15 @@
+tetris|/mnt/SDCARD/.userdata/shared/.minui/FBN/tetris.zip.0.bmp|/mnt/SDCARD/Roms/Arcade (FBN)/tetris.zip|minarch
+Top Gear Pocket 2|/mnt/SDCARD/.userdata/shared/.minui/GBC/Top Gear Pocket 2 (USA).zip.0.bmp|/mnt/SDCARD/Roms/Game Boy Color (GBC)/Top Gear Pocket 2 (USA).zip|minarch
+Human Cannonball ~ Cannon Man|/mnt/SDCARD/.userdata/shared/.minui/ATARI/Human Cannonball ~ Cannon Man (USA).a26.0.bmp|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Human Cannonball ~ Cannon Man (USA).a26|minarch
+Looney Tunes|/mnt/SDCARD/.userdata/shared/.minui/GB/Looney Tunes (USA, Europe).zip.0.bmp|/mnt/SDCARD/Roms/Game Boy (GB)/Looney Tunes (USA, Europe).zip|minarch
+Home Run ~ Baseball|/mnt/SDCARD/.userdata/shared/.minui/ATARI/Home Run ~ Baseball (USA).a26.0.bmp|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Home Run ~ Baseball (USA).a26|minarch
+32 in 1 Game Cartridge|/mnt/SDCARD/.userdata/shared/.minui/ATARI/32 in 1 Game Cartridge (Europe).a26.0.bmp|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/32 in 1 Game Cartridge (Europe).a26|minarch
+Super Mario Bros. Deluxe|/mnt/SDCARD/.userdata/shared/.minui/GBC/Super Mario Bros. Deluxe (USA, Europe) (Rev A).zip.0.bmp|/mnt/SDCARD/Roms/Game Boy Color (GBC)/Super Mario Bros. Deluxe (USA, Europe) (Rev A).zip|minarch
+SpongeBob SquarePants - Legend of the Lost Spatula|/mnt/SDCARD/.userdata/shared/.minui/GBC/SpongeBob SquarePants - Legend of the Lost Spatula (USA, Europe).zip.0.bmp|/mnt/SDCARD/Roms/Game Boy Color (GBC)/SpongeBob SquarePants - Legend of the Lost Spatula (USA, Europe).zip|minarch
+Deal or No Deal|/mnt/SDCARD/.userdata/shared/.minui/GBA/Deal or No Deal.zip.0.bmp|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Deal or No Deal.zip|minarch
+Backyard Baseball 2006|/mnt/SDCARD/.userdata/shared/.minui/GBA/Backyard Baseball 2006.zip.0.bmp|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Backyard Baseball 2006.zip|minarch
+Backyard Baseball|/mnt/SDCARD/.userdata/shared/.minui/GBA/Backyard Baseball.zip.0.bmp|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Backyard Baseball.zip|minarch
+10-Pin Bowling|/mnt/SDCARD/.userdata/shared/.minui/GBC/10-Pin Bowling (USA).zip.0.bmp|/mnt/SDCARD/Roms/Game Boy Color (GBC)/10-Pin Bowling (USA).zip|minarch
+Pokemon Unbound 2.1.1|/mnt/SDCARD/.userdata/shared/.minui/GBA/Pokemon Unbound 2.1.1.gba.0.bmp|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Pokemon Unbound 2.1.1.gba|minarch
+pacman|/mnt/SDCARD/.userdata/shared/.minui/FBN/pacman.zip.0.bmp|/mnt/SDCARD/Roms/Arcade (FBN)/pacman.zip|minarch
+Tarzan|/mnt/SDCARD/.userdata/shared/.minui/GBC/Tarzan (USA, Europe).zip.0.bmp|/mnt/SDCARD/Roms/Game Boy Color (GBC)/Tarzan (USA, Europe).zip|minarch

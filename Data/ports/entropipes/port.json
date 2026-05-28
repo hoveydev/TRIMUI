@@ -1,0 +1,48 @@
+{
+    "version": 4,
+    "name": "entropipes.zip",
+    "items": [
+        "EntroPipes.sh",
+        "entropipes/"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "EntroPipes",
+        "desc": "EntroPipes is a puzzle type game. Simply connect all pipes. ",
+        "inst": "Ready to run.",
+        "genres": [
+            "puzzle"
+        ],
+        "porter": [
+            "Alfonso Saavedra 'Son Link'"
+        ],
+        "image": {
+            "screenshot": "screenshot.png",
+            "covers": [
+                "cover.png"
+            ],
+            "thumbnail": null,
+            "video": null
+        },
+        "rtr": true,
+        "runtime": [
+            "pyxel_2.2.8_python_3.11.squashfs"
+        ],
+        "reqs": [],
+        "arch": [],
+        "exp": false,
+        "min_glibc": "",
+        "desc_md": null,
+        "inst_md": null
+    },
+    "status": {
+        "source": "PortMaster",
+        "md5": "86b551c6e9f2e99efb029094f8a82852",
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "entropipes/port.json",
+        "EntroPipes.sh": "EntroPipes.sh",
+        "entropipes/": "entropipes/"
+    }
+}

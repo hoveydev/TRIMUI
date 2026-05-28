@@ -1,0 +1,98 @@
+2026-05-16 04:46:00 - Starting main program
+2026-05-16 04:46:00 - Creating channels menu
+2026-05-16 04:46:07 - Picker output: RetroHandhelds|RetroHandhelds|channel, status: 4
+2026-05-16 04:46:11 - Starting add_channel function
+2026-05-16 04:46:32 - Keyboard input status: 0
+2026-05-16 04:46:32 - Keyboard input: @joov
+2026-05-16 04:46:32 - Cleaned channel: joov
+2026-05-16 04:46:32 - Validating channel URL: joov
+2026-05-16 04:46:32 - Cleaned channel URL: joov
+2026-05-16 04:46:32 - Attempting to validate channel: joov
+2026-05-16 04:46:44 - Channel validated successfully: joov
+2026-05-16 04:46:44 - Channel added: joov
+2026-05-16 04:46:48 - Creating channels menu
+2026-05-16 04:46:52 - Picker output: joov|joov|channel, status: 0
+2026-05-16 04:46:52 - Name: joov, Channel: joov, Type: channel
+2026-05-16 04:46:59 - Selected: five for channel joov
+2026-05-16 04:47:31 - Creating channels menu
+2026-05-16 04:47:34 - Picker output: RetroGameCorps|RetroGameCorps|channel, status: 4
+2026-05-16 04:47:36 - Starting remove_channel function
+2026-05-16 04:47:41 - Removed channel: joov
+2026-05-16 04:47:43 - Creating channels menu
+2026-05-16 04:47:45 - Picker output: , status: 2
+2026-05-16 04:47:48 - Starting main program
+2026-05-16 04:47:48 - Creating channels menu
+2026-05-16 04:47:49 - Picker output: RetroGameCorps|RetroGameCorps|channel, status: 4
+2026-05-16 04:47:51 - Starting add_channel function
+2026-05-16 04:48:03 - Keyboard input status: 0
+2026-05-16 04:48:03 - Keyboard input: @Joov
+2026-05-16 04:48:03 - Cleaned channel: Joov
+2026-05-16 04:48:03 - Validating channel URL: Joov
+2026-05-16 04:48:03 - Cleaned channel URL: Joov
+2026-05-16 04:48:03 - Attempting to validate channel: Joov
+2026-05-16 04:48:15 - Channel validated successfully: Joov
+2026-05-16 04:48:15 - Channel added: Joov
+2026-05-16 04:48:22 - Creating channels menu
+2026-05-16 04:48:24 - Picker output: Joov|Joov|channel, status: 0
+2026-05-16 04:48:24 - Name: Joov, Channel: Joov, Type: channel
+2026-05-16 04:48:29 - Selected: five for channel Joov
+2026-05-16 04:49:27 - Creating channels menu
+2026-05-16 04:49:33 - Picker output: Joov|Joov|channel, status: 0
+2026-05-16 04:49:33 - Name: Joov, Channel: Joov, Type: channel
+2026-05-16 04:50:20 - Creating channels menu
+2026-05-16 04:50:24 - Picker output: RetroHandhelds|RetroHandhelds|channel, status: 0
+2026-05-16 04:50:24 - Name: RetroHandhelds, Channel: RetroHandhelds, Type: channel
+2026-05-16 04:50:29 - Creating channels menu
+2026-05-16 04:50:31 - Picker output: RetroGameCorps|RetroGameCorps|channel, status: 0
+2026-05-16 04:50:31 - Name: RetroGameCorps, Channel: RetroGameCorps, Type: channel
+2026-05-16 04:50:35 - Selected: five for channel RetroGameCorps
+2026-05-16 04:51:19 - Creating channels menu
+2026-05-16 04:51:46 - Picker output: RetroHandhelds|RetroHandhelds|channel, status: 0
+2026-05-16 04:51:46 - Name: RetroHandhelds, Channel: RetroHandhelds, Type: channel
+2026-05-16 04:51:49 - Selected: five for channel RetroHandhelds
+2026-05-16 04:52:30 - Creating channels menu
+2026-05-16 04:52:32 - Picker output: , status: 2
+2026-05-19 06:28:32 - Starting main program
+2026-05-19 06:28:32 - Creating channels menu
+2026-05-19 06:28:35 - Picker output: Joov|Joov|channel, status: 0
+2026-05-19 06:28:35 - Name: Joov, Channel: Joov, Type: channel
+2026-05-19 06:28:37 - Selected: five for channel Joov
+2026-05-19 06:28:53 - Creating channels menu
+2026-05-19 06:28:59 - Picker output: Joov|Joov|channel, status: 0
+2026-05-19 06:28:59 - Name: Joov, Channel: Joov, Type: channel
+2026-05-19 06:29:02 - Selected: five for channel Joov
+2026-05-19 06:29:17 - Creating channels menu
+2026-05-19 06:29:21 - Picker output: Joov|Joov|channel, status: 4
+2026-05-19 06:29:27 - Creating channels menu
+2026-05-19 06:29:28 - Picker output: , status: 2
+2026-05-19 06:29:30 - Starting main program
+2026-05-19 06:29:30 - Creating channels menu
+2026-05-19 06:29:32 - Picker output: Joov|Joov|channel, status: 0
+2026-05-19 06:29:32 - Name: Joov, Channel: Joov, Type: channel
+2026-05-19 06:29:37 - Creating channels menu
+2026-05-19 06:29:38 - Picker output: , status: 2
+2026-05-19 09:14:23 - Starting main program
+2026-05-19 09:14:23 - Creating channels menu
+2026-05-19 09:14:25 - Picker output: Joov|Joov|channel, status: 0
+2026-05-19 09:14:25 - Name: Joov, Channel: Joov, Type: channel
+2026-05-19 09:14:29 - Selected: latest for channel Joov
+2026-05-19 09:14:43 - Creating channels menu
+2026-05-19 09:14:45 - Picker output: RetroHandhelds|RetroHandhelds|channel, status: 0
+2026-05-19 09:14:45 - Name: RetroHandhelds, Channel: RetroHandhelds, Type: channel
+2026-05-19 09:14:49 - Selected: five for channel RetroHandhelds
+2026-05-19 09:15:13 - Creating channels menu
+2026-05-19 09:15:15 - Picker output: , status: 2
+2026-05-26 07:47:04 - Starting main program
+2026-05-26 07:47:04 - Creating channels menu
+2026-05-26 07:47:06 - Picker output: Joov|Joov|channel, status: 0
+2026-05-26 07:47:06 - Name: Joov, Channel: Joov, Type: channel
+2026-05-26 07:47:13 - Selected: five for channel Joov
+2026-05-26 07:47:28 - Creating channels menu
+2026-05-26 07:47:34 - Picker output: Joov|Joov|channel, status: 0
+2026-05-26 07:47:34 - Name: Joov, Channel: Joov, Type: channel
+2026-05-26 07:47:38 - Creating channels menu
+2026-05-26 07:47:40 - Picker output: RetroHandhelds|RetroHandhelds|channel, status: 0
+2026-05-26 07:47:40 - Name: RetroHandhelds, Channel: RetroHandhelds, Type: channel
+2026-05-26 07:47:46 - Selected: five for channel RetroHandhelds
+2026-05-26 07:48:11 - Creating channels menu
+2026-05-26 07:48:13 - Picker output: , status: 2

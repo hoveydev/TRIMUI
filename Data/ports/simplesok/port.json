@@ -1,0 +1,46 @@
+{
+    "version": 4,
+    "name": "simplesokoban.zip",
+    "items": [
+        "Simple Sokoban.sh",
+        "simplesok/"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "Simple Sokoban",
+        "desc": "Simple Sokoban is a simple Sokoban game that supports animated movements,unlimited level solutions, unlimited undos and more. It does not have any sound",
+        "inst": "Ready to run.",
+        "genres": [
+            "puzzle"
+        ],
+        "porter": [
+            "Bamboozler"
+        ],
+        "image": {
+            "screenshot": "screenshot.jpg",
+            "covers": [],
+            "thumbnail": null,
+            "video": null
+        },
+        "rtr": true,
+        "runtime": [],
+        "reqs": [],
+        "arch": [
+            "aarch64"
+        ],
+        "desc_md": null,
+        "inst_md": null,
+        "exp": false,
+        "min_glibc": ""
+    },
+    "status": {
+        "source": "PortMaster",
+        "md5": "77d539d94aafe9dc1b76252179808d37",
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "simplesok/port.json",
+        "Simple Sokoban.sh": "Simple Sokoban.sh",
+        "simplesok/": "simplesok/"
+    }
+}

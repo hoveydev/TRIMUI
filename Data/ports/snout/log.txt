@@ -1,0 +1,298 @@
+Loading images...
+Missing: ptrace (0x1401a4c0, 0x557330afac)
+[GPTK]: Running in UINPUT output mode.
+Missing: open (0x180f1e18, 0x557330afac)
+Missing: statvfs (0x180f1ea8, 0x557330afac)
+Missing: syslog (0x180f27f8, 0x557330afac)
+loader/io_util.cpp:13: Failed to stat file 'lib/arm64-v8a/libopenal.so'.
+gmloader/main.cpp:78: Failed initializing module 'libopenal.so'.
+Missing: zError (0x405ddab8, 0x557330afac)
+Missing: _ZN4oboe13convertToTextINS_6ResultEEEPKcT_ (0x405de758, 0x557330afac)
+Missing: _ZN4oboe18AudioStreamBuilder17openManagedStreamERNSt6__ndk110unique_ptrINS_11AudioStreamENS_20StreamDeleterFunctorEEE (0x405e2ed0, 0x557330afac)
+Missing: ioctl (0x405e3668, 0x557330afac)
+Missing: _ZN4oboe13convertToTextINS_11AudioFormatEEEPKcT_ (0x405e4580, 0x557330afac)
+Missing: fcntl (0x405e4678, 0x557330afac)
+Missing: _ZN4oboe13convertToTextIPNS_11AudioStreamEEEPKcT_ (0x405e50b0, 0x557330afac)
+Missing: if_nametoindex (0x405e6558, 0x557330afac)
+Symbol "ExecuteIt" not found.
+Symbol "MemoryManager__Free_2" not found.
+Symbol "Variable_FindName" not found.
+Symbol "Variable_SetBuiltIn_Direct" not found.
+Failed to perform hook for symbol "_ZN11TRelConsole6OutputEPKcz"!
+Failed to perform hook for symbol "alBufferMarkNeedsFreed"!
+HACK:: Disabled surface depth.
+Failed to perform hook for symbol "_Z23RegisterAndroidKeyEventii"!
+Texture compression hack NOT ENABLED!!!
+Symbol "ms_freq" not found.
+
+***************************************
+*   YoYo Games Android Runner V0.1    *
+***************************************	 
+Importing GL
+... attemping to import GL2
+Finished importing GL
+Class RunnerJNILib does not have method OpenURL.
+Class RunnerJNILib does not have method SendHighScore.
+Class RunnerJNILib does not have method SendAchievement.
+Class RunnerJNILib does not have method IncrementAchievement.
+Class RunnerJNILib does not have method OpenAchievements.
+Class RunnerJNILib does not have method OpenLeaderboards.
+Class RunnerJNILib does not have method AchievementLoadFriends.
+Class RunnerJNILib does not have method AchievementLoadLeaderboard.
+Class RunnerJNILib does not have method CallExtensionFunction.
+Class RunnerJNILib does not have method LoadDynamicAsset.
+Class RunnerJNILib does not have method GetAssetManager.
+Class RunnerJNILib does not have method AchievementLoadPic.
+Class RunnerJNILib does not have method AchievementShow.
+Class RunnerJNILib does not have method AchievementEvent.
+Class RunnerJNILib does not have method AchievementGetInfo.
+Class RunnerJNILib does not have method AchievementLogin.
+Class RunnerJNILib does not have method AchievementLoginStatus.
+Class RunnerJNILib does not have method AchievementLogout.
+Class RunnerJNILib does not have method EnableAds.
+Class RunnerJNILib does not have method MoveAds.
+Class RunnerJNILib does not have method AdsSetup.
+Class RunnerJNILib does not have method DisableAds.
+Class RunnerJNILib does not have method AdsEvent.
+Class RunnerJNILib does not have method AdsEventPreload.
+Class RunnerJNILib does not have method AdsDisplayWidth.
+Class RunnerJNILib does not have method AdsDisplayHeight.
+Class RunnerJNILib does not have method LeaveRating.
+Class RunnerJNILib does not have method HttpGet.
+Class RunnerJNILib does not have method HttpPost.
+Class RunnerJNILib does not have method HttpRequest.
+Class RunnerJNILib does not have method ClearGamepads.
+Class RunnerJNILib does not have method PlayMP3.
+Class RunnerJNILib does not have method StopMP3.
+Class RunnerJNILib does not have method PauseMP3.
+Class RunnerJNILib does not have method ResumeMP3.
+Class RunnerJNILib does not have method SetMP3Volume.
+Class RunnerJNILib does not have method PlayingMP3.
+Class RunnerJNILib does not have method GetDefaultFrameBuffer.
+Class RunnerJNILib does not have method ShowMessage.
+Class RunnerJNILib does not have method setSystemUIVisibilityFlags.
+Class RunnerJNILib does not have method InputString.
+Class RunnerJNILib does not have method ShowQuestion.
+Class RunnerJNILib does not have method ShowMessageAsync.
+Class RunnerJNILib does not have method InputStringAsync.
+Class RunnerJNILib does not have method ShowQuestionAsync.
+Class RunnerJNILib does not have method ShowLogin.
+Class RunnerJNILib does not have method RestrictOrientation.
+Class RunnerJNILib does not have method isNetworkConnected.
+Class RunnerJNILib does not have method CheckPermission.
+Class RunnerJNILib does not have method RequestPermission.
+Class RunnerJNILib does not have method powersaveEnable.
+Class RunnerJNILib does not have method analyticsEvent.
+Class RunnerJNILib does not have method analyticsEventExt.
+Class RunnerJNILib does not have method cloudStringSave.
+Class RunnerJNILib does not have method cloudSynchronise.
+Class RunnerJNILib does not have method DynamicAssetExists.
+Class RunnerJNILib does not have method DumpUsedMemory.
+Class RunnerJNILib does not have method UsingGL2.
+Class RunnerJNILib does not have method PushLocalNotification.
+Class RunnerJNILib does not have method PushGetLocalNotification.
+Class RunnerJNILib does not have method PushCancelLocalNotification.
+Class RunnerJNILib does not have method GetUDID.
+Class RunnerJNILib does not have method WaitForVsync.
+Class RunnerJNILib does not have method HasVsyncHandler.
+Class RunnerJNILib does not have method VirtualKeyboardToggle.
+Class RunnerJNILib does not have method VirtualKeyboardGetStatus.
+Class RunnerJNILib does not have method VirtualKeyboardGetHeight.
+Class RunnerJNILib does not have method OnKeyboardStringSet.
+Class RunnerJNILib does not have method EnumerateGamepadDevices.
+Loading APK /mnt/SDCARD/Data/ports/snout/game.portJust before strdup
+CommandLine: -game game.droid
+MemoryManager allocated: 92353
+Could not look up method getPackageManager, NULL class.
+Class RunnerJNILib does not have field ms_context.
+Could not look up method hasSystemFeature, NULL class.
+android.software.leanback = 0
+Finished Init
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(426)[r32908]    *
+***************************************	 
+RunnerLoadGame: game.droid
+RunnerLoadGame() - assets/game.droid
+YYG Game launching. Game file: assets/game.droid
+Checking if INIFile exists at assets/options.ini
+INIFile assets/options.ini Exists, loading....
+_FileExists fail in zip - assets/game.yydebug
+Reading File assets/game.droid
+Loaded File assets/game.droid(801132)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad.._FileExists fail in zip - assets/gamecontrollerdb.txt
+Attempting to set gamepadcount to 0
+Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 1038 global variables
+got 1038 instance variables
+got 19 local variables
+ID_STRG
+Create Window
+Init Graphics
+GR_D3D_Init()
+OpenGL: version string OpenGL ES 3.2 build 1.19@6345021
+OpenGL: vendor string Imagination Technologies
+OpenGL GLSL: version string OpenGL ES GLSL ES 3.20 build 1.19@6345021
+Extensions:
+GL_ANDROID_extension_pack_es31a GL_APPLE_texture_format_BGRA8888 GL_EXT_blend_minmax GL_EXT_buffer_storage GL_EXT_clear_texture GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_conservative_depth GL_EXT_copy_image GL_EXT_discard_framebuffer GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_EGL_image_array GL_EXT_float_blend GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_multi_draw_arrays GL_EXT_multisampled_render_to_texture GL_EXT_multisampled_render_to_texture2 GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_primitive_bounding_box GL_EXT_pvrtc_sRGB GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_group_vote GL_EXT_shader_implicit_conversions GL_EXT_shader_io_blocks GL_EXT_shader_non_constant_global_initializers GL_EXT_shader_pixel_local_storage GL_EXT_shader_pixel_local_storage2 GL_EXT_shader_texture_lod GL_EXT_shadow_samplers GL_EXT_sparse_texture GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_cube_map_array GL_EXT_texture_format_BGRA8888 GL_EXT_texture_format_sRGB_override GL_EXT_texture_rg GL_EXT_texture_shadow_lod GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_EXT_YUV_target GL_IMG_framebuffer_downsample GL_IMG_multisampled_render_to_texture GL_IMG_program_binary GL_IMG_read_format GL_IMG_shader_binary GL_IMG_texture_compression_pvrtc GL_IMG_texture_compression_pvrtc2 GL_IMG_texture_format_BGRA8888 GL_IMG_texture_npot GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_debug GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_depth_texture GOpenGL: 24bit depth supported
+OpenGL: packed 24bit depth/8bit stencil supported
+OpenGL: Non-power-of-two textures supported (through extension)
+Texture #1 16,16
+Texture #2 16,16
+Texture #1 16,16
+Texture #2 16,16
+finished(2)!!
+Texture #1 1,1
+Texture #2 1,1
+finished(2)!!
+Background_InitTextures()
+Sprite_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   208
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   376
+Audio_Load()
+Process Chunk: AGRP   40
+AudioGroup_Load()
+Process Chunk: SPRT   12616
+Process Chunk: BGND   8
+Process Chunk: PATH   8
+Process Chunk: SCPT   1480
+Process Chunk: GLOB   248
+Process Chunk: SHDR   4136
+Process Chunk: FONT   16296
+Process Chunk: TMLN   8
+Process Chunk: OBJT   15256
+Collision Event time(microsecs)=21
+Process Chunk: ACRV   8
+Process Chunk: SEQN   8
+Process Chunk: TAGS   24
+Process Chunk: ROOM   2648
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   1880
+Process Chunk: TGIN   200
+Process Chunk: CODE   114504
+Process Chunk: VARI   15160
+Process Chunk: FUNC   8008
+Process Chunk: STRG   45368
+Process Chunk: TXTR   562264
+Process Chunk: AUDO   4
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 30 objects:
+Room_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+- PrepareGame done.
+Run_Start
+Trying to load save
+Found save file
+sending pin 1234
+palette: 0
+Audio group 2 -> Loading...
+Audio_WAVs()
+Audio group 1 -> Loading...
+Audio_WAVs()
+mu_pause: Audio Group 2 is not loaded
+Steam init: 0
+arena    =18653184(0x1f3011ca000)
+ordblks  =0(0x100000000)
+smblks   =31260672(0x01dd0000)
+hblks    =0(0x117671000000000)
+hblkhd   =342256(0x20de0000538f0)
+usmblks  =-2010712160(0x7f8826f7a0)
+fsmblks  =1080491768(0x4066fef8)
+uordblks =1080793840(0x406b9af0)
+fordblks =1080777028(0x406b5944)
+keepcost =-675154224(0x7fd7c1f6d0)
+Total memory used = 44635195(0x02a9143b) bytes
+**********************************.
+Entering main loop.
+**********************************.
+Finished BeginToEnd, default frame buffer is: 0
+MANUFACTURER = JohnnyonFlame
+Audio group 1 -> Loaded
+Audio group 2 -> Loaded
+Texture #3 1024,1024
+Texture #3 512,512
+Texture #3 512,512
+Texture #3 1024,1024
+Loading config file (/mnt/SDCARD/Data/ports/snout/gmloader.json)
+apk_path /mnt/SDCARD/Data/ports/snout/game.port save_dir /mnt/SDCARD/Data/ports/snout/saves/ pkg_dir com.johnny.loader
+current_mode 1024x768
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 3 /dev/input/event4
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 3 /dev/input/event4
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 3 /dev/input/event4
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+Cursor disabled
+MALI_CreateWindow:0x557b6cd6b0 done.
+Controller 0 ignored (disable_controller = True)

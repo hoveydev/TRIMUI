@@ -1,0 +1,164 @@
+#!/bin/sh
+#
+# SPDX-License-Identifier: MIT
+#
+
+if [ ! -z "$PM_FUNCS_VERSION" ]; then
+    return
+fi
+
+# So we can check the version
+export PM_FUNCS_VERSION=3
+
+export PM_SCRIPTNAME="$(basename "${PM_SCRIPTNAME:-$0}")"
+export PM_PORTNAME="${PM_PORTNAME:-${PM_SCRIPTNAME%.sh}}"
+export PM_VERSION="$(cat "$controlfolder/version")"
+export PM_RESOURCE_DIR="$controlfolder/resources"
+export PM_CAN_MOUNT="${PM_CAN_MOUNT:-Y}"
+
+# muOS stuff.
+if [[ "$CFW_NAME" == "muOS" ]]; then
+    export LD_LIBRARY_PATH="/opt/muos/extra/lib:$LD_LIBRARY_PATH"
+fi
+
+source "$controlfolder/PortMasterDialog.txt"
+
+# Extract the latest NotoSans.tar.xz
+if [ -f "$controlfolder/pylibs/resources/NotoSans.tar.xz" ]; then
+    # TODO: make sure this works on all CFW.
+    $ESUDO tar -C "$controlfolder/pylibs/resources" -xf "$controlfolder/pylibs/resources/NotoSans.tar.xz"
+
+    if [ -f "$controlfolder/pylibs/resources/NotoSansJP-Regular.ttf" ]; then
+        $ESUDO rm -f "$controlfolder/pylibs/resources/NotoSans.tar.xz"
+    fi
+fi
+
+if [ -f "$PM_RESOURCE_DIR/do_init" ]; then
+    $ESUDO cp -f "$controlfolder"/pylibs/resources/*.ttf "$PM_RESOURCE_DIR/"
+
+    $ESUDO rm -f "$PM_RESOURCE_DIR/do_init"
+fi
+
+
+bind_directories() {
+    # Usage: bind_directories ~/.config/StardewValley $GAMEDIR/savedata
+    #
+    # Reason: some platforms (batocera) use exfat for the home directory, so we can't use symbolic links
+    # We then instead use bind mount, however retrodeck cannot bind mount because it does not run in root.
+    #
+    if [ "$PM_CAN_MOUNT" = "Y" ]; then
+        [[ -L "$1" ]] && rm -f "$1" && echo "removed previous symlink $1"
+        # Ensure the directory exists before attempting the bind mount
+        if [ -d "$2" ]; then
+            mkdir -p "$1"
+            $ESUDO umount "$1"
+            $ESUDO mount --bind "$2" "$1" && echo "successful bind mount from $2 to $1"
+        else
+            echo "no directory found at $2"
+        fi
+    else
+        # RetroDECK cant use bind mount without root.
+        rm -f "$1"
+        ln -sfv "$2" "$1"
+    fi
+}
+
+bind_files() {
+    # Usage: bind_files ~/.config_file $GAMEDIR/conf/.config_file
+    #
+    # Reason: some platforms (batocera) use exfat for the home directory, so we can't use symbolic links
+    # We then instead use bind mount, however retrodeck cannot bind mount because it does not run in root.
+    #
+    if [ "$PM_CAN_MOUNT" = "Y" ]; then
+        [[ -L "$1" ]] && rm -f "$1" && echo "removed previous symlink $1"
+        # Ensure the file exists before attempting the bind mount
+        if [ -f "$2" ]; then
+            touch "$1"
+            $ESUDO umount "$1"
+            $ESUDO mount --bind "$2" "$1" && echo "successful bind mount from $2 to $1"
+        else
+            echo "no file found at $2"
+        fi
+    else
+        # RetroDECK cant use bind mount without root.
+        rm -f "$1"
+        ln -sfv "$2" "$1"
+    fi
+}
+
+pm_begin_splash() {
+    # Does nothing, noone ever used it, blame ImCoKeMaN
+    printf ""
+}
+
+
+pm_show_error() {
+    # Usage: pm_show_error "Message here."
+    if [ ! -e "$PM_PIPE" ]; then
+        PortMasterDialogInit "no-harbour"
+        PortMasterDialog "messages_begin"
+    fi
+
+    echo "$1"
+
+    PortMasterDialog "message_box" "$1"
+}
+
+
+pm_end_splash() {
+    # You get nothing!
+    printf ""
+}
+
+
+pm_message_end() {
+    if [ -e "$PM_PIPE" ]; then
+        sleep 3
+        PortMasterDialogExit
+    fi
+}
+
+trap pm_message_end EXIT
+
+pm_message() {
+    echo "$1" # Moved here
+
+    # Skip initing the message and only print to avoid splashing a blank disappearing message
+    if [ "$1" = "Patching process already completed. Skipping." ]; then
+        return
+    fi
+
+    # Usage: pm_message "Some message here."
+    if [ ! -e "$PM_PIPE" ]; then
+        PortMasterDialogInit "no-harbour"
+        PortMasterDialog "messages_begin"
+    fi
+
+    PortMasterDialog "message" "$1"
+}
+
+pm_gptokeyb_finish() {
+    $ESUDO pkill -9 -f gptokeyb
+    $ESUDO pkill -9 -f gptokeyb2
+}
+
+
+pm_finish() {
+    pm_gptokeyb_finish
+    pm_message_end
+
+    $ESUDO systemctl restart oga_events 2> /dev/null &
+
+    if [ ! -z "$(echo "$CUR_TTY" | grep -e '^/dev/tty')" ]; then
+        printf "\033c" > "$CUR_TTY"
+    fi
+}
+
+pm_platform_helper() {
+    if [ -e "$PM_PIPE" ]; then
+        PortMasterDialogExit
+    fi
+
+    # DO SOMETHING HERE
+    printf ""
+}

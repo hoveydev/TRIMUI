@@ -1,0 +1,8 @@
+#!/bin/bash
+# Wrapper script for TrimUI RetroArch
+# Redirects calls from scripts expecting 'retroarch' to the actual 'ra64.trimui' binary
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+export HOME="$SCRIPT_DIR"
+cd "$SCRIPT_DIR"
+exec "$SCRIPT_DIR/ra64.trimui" "$@"

@@ -1,0 +1,164 @@
+current_mode 1024x768
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+MALI_CreateWindow:0x55946e9910 done.
+2026-05-26 00:39:31.086 | DEBUG    | harbourmaster.config:<module>:194 - HM_DEFAULT_TOOLS_DIR:   /mnt/SDCARD/Apps/PortMaster
+2026-05-26 00:39:31.091 | DEBUG    | harbourmaster.config:<module>:195 - HM_DEFAULT_PORTS_DIR:   /mnt/SDCARD/Data/ports
+2026-05-26 00:39:31.094 | DEBUG    | harbourmaster.config:<module>:196 - HM_DEFAULT_SCRIPTS_DIR: /mnt/SDCARD/Data/ports
+2026-05-26 00:39:32.116 | INFO     | __main__:__init__:533 - PM: 2026.04.01-1426
+2026-05-26 00:39:32.129 | INFO     | __main__:__init__:534 - HM: 2025-06-06
+2026-05-26 00:39:32.133 | INFO     | __main__:__init__:535 - SDL DLL: /usr/trimui/lib/libSDL2-2.0.so.0.3000.8,  2.30.8
+2026-05-26 00:39:32.145 | INFO     | __main__:__init__:536 - TTF DLL: /usr/trimui/lib/libSDL2_ttf-2.0.so.0.14.1, 2.0.15
+2026-05-26 00:39:32.150 | INFO     | __main__:__init__:537 - IMG DLL: /usr/trimui/lib/libSDL2_image-2.0.so.0.2.3, 2.0.5
+2026-05-26 00:39:32.154 | INFO     | __main__:__init__:538 - MIX DLL: /usr/trimui/lib/libSDL2_mixer-2.0.so.0.0.1, 2.0.1
+2026-05-26 00:39:32.158 | INFO     | __main__:__init__:539 - HM_TESTING: False
+2026-05-26 00:39:32.163 | INFO     | __main__:__init__:549 - Opened GameController 0: b'Xbox 360 Controller'
+2026-05-26 00:39:32.167 | INFO     | __main__:__init__:550 -  b'0300a3845e0400008e02000014010000,Xbox 360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux,'
+2026-05-26 00:39:32.175 | INFO     | harbourmaster.hardware:new_device_info:419 - 
+2026-05-26 00:39:32.188 | INFO     | harbourmaster.hardware:new_device_info:539 - {'name': 'TrimUI', 'version': '1.0.6', 'device': 'trimui-brick'}
+2026-05-26 00:39:32.197 | INFO     | harbourmaster.hardware:device_info:742 - DEVICE INFO: {'name': 'TrimUI', 'version': '1.0.6', 'device': 'trimui-brick', 'resolution': (1024, 768), 'analogsticks': 0, 'cpu': 'a133plus', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '1024x768', 'TrimUI', 'trimui-brick', 'analog_0', 'hires', 'wide', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.33'}
+2026-05-26 00:39:32.202 | INFO     | __main__:__init__:570 - Display size: 1024x768
+2026-05-26 00:39:32.206 | INFO     | __main__:__init__:611 - {'name': 'TrimUI', 'version': '1.0.6', 'device': 'trimui-brick', 'resolution': (1024, 768), 'analogsticks': 0, 'cpu': 'a133plus', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '1024x768', 'TrimUI', 'trimui-brick', 'analog_0', 'hires', 'wide', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.33'}
+2026-05-26 00:39:32.565 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/SDCARD/Apps/PortMaster/PortMaster/themes/MinUI/theme.json
+2026-05-26 00:39:32.572 | DEBUG    | pugtheme:theme_load:230 - - loading base_data
+2026-05-26 00:39:32.575 | DEBUG    | pugtheme:theme_load:255 - - loading elements:
+2026-05-26 00:39:32.591 | DEBUG    | pugtheme:theme_load:306 -   - loading section ports_list
+2026-05-26 00:39:32.599 | DEBUG    | pugtheme:theme_load:306 -   - loading section port_info
+2026-05-26 00:39:32.606 | DEBUG    | pugtheme:theme_load:306 -   - loading section port_info_popup
+2026-05-26 00:39:32.610 | DEBUG    | pugtheme:theme_load:306 -   - loading section main_menu
+2026-05-26 00:39:32.615 | DEBUG    | pugtheme:theme_load:306 -   - loading section option_menu
+2026-05-26 00:39:32.619 | DEBUG    | pugtheme:theme_load:306 -   - loading section themes_list
+2026-05-26 00:39:32.624 | DEBUG    | pugtheme:theme_load:306 -   - loading section runtime_list
+2026-05-26 00:39:32.628 | DEBUG    | pugtheme:theme_load:306 -   - loading section on_screen_keyboard
+2026-05-26 00:39:32.632 | DEBUG    | pugtheme:theme_load:306 -   - loading section filter_list
+2026-05-26 00:39:32.637 | DEBUG    | pugtheme:theme_load:306 -   - loading section message_window
+2026-05-26 00:39:32.641 | DEBUG    | pugtheme:theme_load:306 -   - loading section featured_ports_list
+2026-05-26 00:39:32.646 | DEBUG    | pugtheme:theme_load:306 -   - loading section message_box
+2026-05-26 00:39:32.652 | DEBUG    | pugtheme:theme_load:306 -   - loading section blank
+2026-05-26 00:39:32.657 | DEBUG    | pugtheme:theme_load:306 -   - loading section selection_list
+2026-05-26 00:39:32.661 | DEBUG    | pugtheme:theme_load:306 -   - loading section selection_list_description
+2026-05-26 00:39:32.672 | DEBUG    | pugtheme:theme_load:306 -   - loading section selection_list_images
+2026-05-26 00:39:32.676 | DEBUG    | pugtheme:theme_load:306 -   - loading section selection_list_description_images
+2026-05-26 00:39:32.681 | DEBUG    | pugtheme:theme_load:278 - - loading pallet:
+2026-05-26 00:39:32.685 | DEBUG    | pugtheme:theme_load:234 - - loading resources:
+2026-05-26 00:39:32.698 | DEBUG    | pugtheme:theme_load:250 -   - loading sound click.wav as click - [OKAY]
+2026-05-26 00:39:32.710 | DEBUG    | pugtheme:theme_load:250 -   - loading sound cancel.wav as cancel - [OKAY]
+2026-05-26 00:39:32.723 | DEBUG    | pugtheme:theme_load:250 -   - loading sound scroll.wav as scroll - [OKAY]
+2026-05-26 00:39:32.733 | DEBUG    | pugtheme:theme_load:250 -   - loading sound slide_up.wav as slide_up - [OKAY]
+2026-05-26 00:39:32.742 | DEBUG    | pugtheme:theme_load:250 -   - loading sound slide_down.wav as slide_down - [OKAY]
+2026-05-26 00:39:32.782 | DEBUG    | pugtheme:theme_load:244 -   - loading image buttons.png - [OKAY]
+2026-05-26 00:39:32.807 | DEBUG    | pugtheme:theme_load:242 -   - loading image no-image.jpg as NO_IMAGE - [OKAY]
+2026-05-26 00:39:32.811 | DEBUG    | pugtheme:theme_load:306 -   - loading section disclaimer
+2026-05-26 00:39:33.529 | INFO     | __main__:portmaster_check_update:1921 - Checking for updates: 2026.04.01-1426 vs 2026.04.01-1426
+2026-05-26 00:39:33.561 | DEBUG    | __main__:push_scene:1331 - PUSH SCENE LAYER messages
+2026-05-26 00:39:33.564 | DEBUG    | __main__:push_scene:1334 - SCENE LIST: ['root', 'messages']
+2026-05-26 00:39:34.204 | DEBUG    | harbourmaster.harbour:load_info:414 - ports_info.json: 126839979aaa28d4ac334dff7c47d2693495f799 vs 126839979aaa28d4ac334dff7c47d2693495f799
+2026-05-26 00:39:34.209 | DEBUG    | harbourmaster.harbour:load_info:414 - porters.json: d04ddc557764fdeaf12dc95568814493f5786f74 vs d04ddc557764fdeaf12dc95568814493f5786f74
+2026-05-26 00:39:34.215 | DEBUG    | harbourmaster.harbour:load_info:414 - port_stats.json: c513cc28c39bff30c717f3db2d8741906a3e9f12 vs c806ba5ffc0178221b16ab908f7351c3fea2a6cf
+2026-05-26 00:39:34.651 | DEBUG    | harbourmaster.harbour:load_info:414 - featured_ports.json: 1aced61f08ffd89c8ec6d7f9315bd197c836af52 vs 1aced61f08ffd89c8ec6d7f9315bd197c836af52
+2026-05-26 00:39:34.690 | DEBUG    | harbourmaster.harbour:load_info:414 - featured_images.zip: a30174294d489a64c48e97bf13c570f5451ad0ea vs a30174294d489a64c48e97bf13c570f5451ad0ea
+2026-05-26 00:39:34.697 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/banger-ports.jpg: 65bb4b85996865d6edebbefd657ae5efc553a52f vs 65bb4b85996865d6edebbefd657ae5efc553a52f
+2026-05-26 00:39:34.703 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/portmaster-ports.jpg: f7b5bed9c788648bba6af5ff8714e828adcdaeea vs f7b5bed9c788648bba6af5ff8714e828adcdaeea
+2026-05-26 00:39:34.711 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-action.jpg: b8160d7bfc73591daa2faebc4b07a5f926c3f96e vs b8160d7bfc73591daa2faebc4b07a5f926c3f96e
+2026-05-26 00:39:34.718 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-arcade.jpg: 682416da5020d71496a4a510260fb80f800ff202 vs 682416da5020d71496a4a510260fb80f800ff202
+2026-05-26 00:39:34.735 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-games.jpg: 3d1a6ffa75282f6e43c84c61d1758d4bbd53a573 vs 3d1a6ffa75282f6e43c84c61d1758d4bbd53a573
+2026-05-26 00:39:34.742 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-metroidvania.jpg: 7397b736b616f8840aad29dffee31ead5eb2c27e vs 7397b736b616f8840aad29dffee31ead5eb2c27e
+2026-05-26 00:39:34.751 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-platformers.jpg: 1352892517ffd4904af6a62c94a26b1eba21f6f2 vs 1352892517ffd4904af6a62c94a26b1eba21f6f2
+2026-05-26 00:39:34.758 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-puzzle-platformers.jpg: bb6d79e915d43c5370e68e08fed717dc7c2b1181 vs bb6d79e915d43c5370e68e08fed717dc7c2b1181
+2026-05-26 00:39:34.769 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-roguelikes.jpg: bf9ee828233fb4983eeb413a416b9d5dee0916c6 vs bf9ee828233fb4983eeb413a416b9d5dee0916c6
+2026-05-26 00:39:34.777 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-rpgs.jpg: f82c586fa558e675db82b9090081abdf7c4e8243 vs f82c586fa558e675db82b9090081abdf7c4e8243
+2026-05-26 00:39:34.786 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-shmups.jpg: 4870bb3db5b17249a2fac3b4a3804d1b3e0bf4b7 vs 4870bb3db5b17249a2fac3b4a3804d1b3e0bf4b7
+2026-05-26 00:39:34.794 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-simulation.jpg: bb27dd2ca095ff74fae42a1162372c17188a5184 vs bb27dd2ca095ff74fae42a1162372c17188a5184
+2026-05-26 00:39:34.802 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/premium-unique.jpg: a954f40c4d9938087ad7fa73ed78cfcca352f704 vs a954f40c4d9938087ad7fa73ed78cfcca352f704
+2026-05-26 00:39:34.810 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/puzzling-ports.jpg: bd6f611ab04a44cae3a495978f3ded2c00438c56 vs bd6f611ab04a44cae3a495978f3ded2c00438c56
+2026-05-26 00:39:34.820 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/rtr-adventure.jpg: 076cbe8bd30bc23cd4dfd8b8eb4d83450b206bb8 vs 076cbe8bd30bc23cd4dfd8b8eb4d83450b206bb8
+2026-05-26 00:39:34.829 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/rtr-arcade.jpg: 7174adc502cedeb00096a1611b79741ed351e535 vs 7174adc502cedeb00096a1611b79741ed351e535
+2026-05-26 00:39:34.838 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/rtr-platformers.jpg: b1acaecf4a3aaf685b45ce6b6d42f2d3e911036c vs b1acaecf4a3aaf685b45ce6b6d42f2d3e911036c
+2026-05-26 00:39:34.848 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/rtr-puzzles.jpg: 1f8a55504a3c402d0eb8ae336f57e49373a2e32f vs 1f8a55504a3c402d0eb8ae336f57e49373a2e32f
+2026-05-26 00:39:34.865 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/rtr-racing.jpg: dced9ae6bc4191fb5ceeb315b11177dbf0283579 vs dced9ae6bc4191fb5ceeb315b11177dbf0283579
+2026-05-26 00:39:34.873 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/rtr-rhythm.jpg: 3ac4ad55012698d4c6e41537c890d46ab8d737d2 vs 3ac4ad55012698d4c6e41537c890d46ab8d737d2
+2026-05-26 00:39:34.879 | DEBUG    | harbourmaster.harbour:load_info:468 - featured_ports/rtr-strategy.jpg: 477dec843e6e1ddc440f9a4d4ca61ecd6badf783 vs 477dec843e6e1ddc440f9a4d4ca61ecd6badf783
+2026-05-26 00:39:37.613 | DEBUG    | harbourmaster.source:_update2:806 - images_zip_md5=b76efbf5c63d710a0ac3ad5ef719a362 != images_local_md5=2dc5b9c35660b004309064121b6f6dee
+2026-05-26 00:39:41.959 | DEBUG    | harbourmaster.source:_update2:806 - images_zip_md5=12b9e752e2a7c9705ff9d632ad2e51a1 != images_local_md5=62072538b15dd4fc8d52ceb89f6a631c
+2026-05-26 00:39:42.798 | DEBUG    | harbourmaster.source:_update2:832 - adding /mnt/SDCARD/Apps/PortMaster/PortMaster/config/images_pm/makenewfriends.screenshot.png
+2026-05-26 00:39:42.829 | DEBUG    | harbourmaster.source:_update2:832 - adding /mnt/SDCARD/Apps/PortMaster/PortMaster/config/images_pm/moonchildfe.screenshot.png
+2026-05-26 00:39:42.856 | DEBUG    | harbourmaster.source:_update2:832 - adding /mnt/SDCARD/Apps/PortMaster/PortMaster/config/images_pm/spectrumforces.screenshot.png
+2026-05-26 00:39:42.877 | DEBUG    | harbourmaster.source:_update2:832 - adding /mnt/SDCARD/Apps/PortMaster/PortMaster/config/images_pm/theimpossiblegame.screenshot.png
+2026-05-26 00:39:45.492 | ERROR    | harbourmaster.util:load_pm_signature:217 - Error loading /mnt/SDCARD/Data/ports/._2048.sh: 'utf-8' codec can't decode byte 0xb0 in position 37: invalid start byte
+2026-05-26 00:39:45.498 | ERROR    | harbourmaster.util:load_pm_signature:217 - Error loading /mnt/SDCARD/Data/ports/._Dinothawr.sh: 'utf-8' codec can't decode byte 0xb0 in position 37: invalid start byte
+2026-05-26 00:39:45.504 | ERROR    | harbourmaster.util:load_pm_signature:217 - Error loading /mnt/SDCARD/Data/ports/._Forsworn.sh: 'utf-8' codec can't decode byte 0xb0 in position 37: invalid start byte
+2026-05-26 00:39:45.510 | INFO     | harbourmaster.harbour:load_ports:948 - Unknown port: ._2048.sh
+2026-05-26 00:39:45.513 | INFO     | harbourmaster.harbour:load_ports:948 - Unknown port: ._Dinothawr.sh
+2026-05-26 00:39:45.520 | INFO     | harbourmaster.harbour:load_ports:948 - Unknown port: ._Forsworn.sh
+2026-05-26 00:39:45.568 | DEBUG    | __main__:pop_scene:1356 - POP SCENE LAYER messages
+2026-05-26 00:39:45.574 | DEBUG    | __main__:pop_scene:1359 - SCENE LIST: ['root']
+2026-05-26 00:39:50.282 | DEBUG    | pySDL2gui:handle_events:1610 - PRESSED DOWN
+2026-05-26 00:39:50.388 | DEBUG    | pySDL2gui:handle_events:1619 - RELEASED DOWN
+2026-05-26 00:39:50.453 | DEBUG    | pySDL2gui:handle_events:1610 - PRESSED DOWN
+2026-05-26 00:39:50.561 | DEBUG    | pySDL2gui:handle_events:1619 - RELEASED DOWN
+2026-05-26 00:39:50.628 | DEBUG    | pySDL2gui:handle_events:1610 - PRESSED DOWN
+2026-05-26 00:39:50.702 | DEBUG    | pySDL2gui:handle_events:1619 - RELEASED DOWN
+2026-05-26 00:39:50.798 | DEBUG    | pySDL2gui:handle_events:1610 - PRESSED DOWN
+2026-05-26 00:39:50.873 | DEBUG    | pySDL2gui:handle_events:1619 - RELEASED DOWN
+2026-05-26 00:39:51.061 | DEBUG    | pySDL2gui:handle_events:1610 - PRESSED UP
+2026-05-26 00:39:51.168 | DEBUG    | pySDL2gui:handle_events:1619 - RELEASED UP
+2026-05-26 00:39:51.234 | DEBUG    | pySDL2gui:handle_events:1610 - PRESSED UP
+2026-05-26 00:39:51.337 | DEBUG    | pySDL2gui:handle_events:1619 - RELEASED UP
+2026-05-26 00:39:51.495 | DEBUG    | pySDL2gui:handle_events:1610 - PRESSED DOWN
+2026-05-26 00:39:51.566 | DEBUG    | pySDL2gui:handle_events:1619 - RELEASED DOWN
+2026-05-26 00:39:51.667 | DEBUG    | pySDL2gui:handle_events:1610 - PRESSED DOWN
+2026-05-26 00:39:51.768 | DEBUG    | pySDL2gui:handle_events:1619 - RELEASED DOWN
+2026-05-26 00:39:51.804 | DEBUG    | pySDL2gui:handle_events:1610 - PRESSED DOWN
+2026-05-26 00:39:51.909 | DEBUG    | pySDL2gui:handle_events:1619 - RELEASED DOWN
+2026-05-26 00:39:52.645 | DEBUG    | pySDL2gui:handle_events:1610 - PRESSED A
+2026-05-26 00:39:52.651 | DEBUG    | __main__:main:2088 - <harbourmaster.harbour.HarbourMaster object at 0x7fb4bea190>: trimui
+2026-05-26 00:39:52.654 | DEBUG    | __main__:main:2090 - False
+0: 1
+{'name': 'TrimUI', 'version': '1.0.6', 'device': 'trimui-brick', 'resolution': (1024, 768), 'analogsticks': 0, 'cpu': 'a133plus', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '1024x768', 'TrimUI', 'trimui-brick', 'analog_0', 'hires', 'wide', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.33'}
+XBOX FIXER
+current_mode 1024x768
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+MALI_CreateWindow:0x55c5a7e7f0 done.
+Segmentation fault

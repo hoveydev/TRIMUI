@@ -1,0 +1,46 @@
+{
+    "version": 4,
+    "name": "escape.zip",
+    "items": [
+        "Escape.sh",
+        "escape/"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "Escape",
+        "porter": [
+            "Cebion"
+        ],
+        "desc": "Escape is a fun puzzle game in the tradition of Adventures of Lolo or Chip's Challenge \nUnlike either of those games, Escape doesn't rely at all on reflexes\u2014it's all about your brain.",
+        "inst": "Game files are included.",
+        "genres": [
+            "puzzle"
+        ],
+        "image": {
+            "screenshot": "screenshot.png",
+            "covers": [],
+            "thumbnail": null,
+            "video": null
+        },
+        "rtr": true,
+        "runtime": [],
+        "reqs": [],
+        "arch": [
+            "aarch64"
+        ],
+        "desc_md": null,
+        "inst_md": null,
+        "exp": false,
+        "min_glibc": ""
+    },
+    "status": {
+        "source": "PortMaster",
+        "md5": "58c4e197560497bbacb0a752857cc68d",
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "escape/port.json",
+        "Escape.sh": "Escape.sh",
+        "escape/": "escape/"
+    }
+}

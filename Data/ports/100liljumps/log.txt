@@ -1,0 +1,227 @@
+Failed to symlink /mnt/SDCARD/Data/home/.config/pulse/6716cd319c2cad1320ea34ce6a164e9b-runtime to /tmp/pulse-PKdhtXMmr18n: Operation not permitted
+Watching 'love.aarch64'
+Game prefix 'love'
+Recorded 1 existing controllers
+Running in Fake Keyboard mode
+Joystick 0 has game controller name 'Xbox 360 Controller': 6 opened.
+b -> pressed
+found stack[0] -> b
+PRESSED 'b' -> 'space'
+RELEASE 'b' -> 'space'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+RELEASE 'right' -> 'right'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+RELEASE 'right' -> 'right'
+left -> pressed
+found stack[0] -> left
+PRESSED 'left' -> 'left'
+RELEASE 'left' -> 'left'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+RELEASE 'right' -> 'right'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+RELEASE 'right' -> 'right'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+left -> pressed
+found stack[0] -> left
+PRESSED 'left' -> 'left'
+RELEASE 'left' -> 'left'
+RELEASE 'a' -> 'space'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+RELEASE 'right' -> 'right'
+left -> pressed
+found stack[0] -> left
+PRESSED 'left' -> 'left'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+RELEASE 'left' -> 'left'
+left -> pressed
+found stack[0] -> left
+PRESSED 'left' -> 'left'
+RELEASE 'left' -> 'left'
+up -> pressed
+found stack[0] -> up
+PRESSED 'up' -> 'up'
+RELEASE 'up' -> 'up'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+RELEASE 'right' -> 'right'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+RELEASE 'right' -> 'right'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+RELEASE 'right' -> 'right'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+RELEASE 'a' -> 'space'
+RELEASE 'right' -> 'right'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+RELEASE 'right' -> 'right'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+RELEASE 'right' -> 'right'
+right -> pressed
+found stack[0] -> right
+PRESSED 'right' -> 'right'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+RELEASE 'right' -> 'right'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+left -> pressed
+found stack[0] -> left
+PRESSED 'left' -> 'left'
+RELEASE 'a' -> 'space'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+RELEASE 'left' -> 'left'
+left -> pressed
+found stack[0] -> left
+PRESSED 'left' -> 'left'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+a -> pressed
+found stack[0] -> a
+PRESSED 'a' -> 'space'
+RELEASE 'a' -> 'space'
+RELEASE 'left' -> 'left'
+start -> pressed
+found stack[0] -> start
+PRESSED 'start' -> 'enter'
+guide -> pressed
+found stack[0] -> guide
+RELEASE 'start' -> 'enter'
+start -> pressed
+found stack[0] -> start
+PRESSED 'start' -> 'enter'
+guide -> pressed
+found stack[0] -> guide
+RELEASE 'start' -> 'enter'
+guide -> pressed
+found stack[0] -> guide
+start -> pressed
+found stack[0] -> start
+PRESSED 'start' -> 'enter'
+RELEASE 'start' -> 'enter'
+start -> pressed
+found stack[0] -> start
+PRESSED 'start' -> 'enter'
+guide -> pressed
+found stack[0] -> gcurrent_mode 1024x768
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 3 /dev/input/event4
+SDL_UDEV_DEVICEADDED 1 /dev/input/event5
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+SDL2: set EGL_OPENGL_ES3_BIT_KHR
+MALI_CreateWindow:0x5599695630 done.
+{["orange_medal_obtained"]=false,["config_show_speedrun_timer"]=false,["has_watched_start_animation"]=true,["temple_challenge_completed"]=false,["purple_medal_obtained"]=false,["red_medal_obtained"]=false,["resolution_width"]=1024,["config_effects_disabled"]=true,["config_screenshake_disabled"]=true,["config_particles_disabled"]=true,["config_vibration_disabled"]=false,["lowest_jumps_record"]=1,["has_finished_the_game"]=false,["sounds_volume"]=0.5,["jungle_challenge_completed"]=false,["green_medal_obtained"]=false,["yellow_medal_obtained"]=false,["blue_medal_obtained"]=false,["resolution_height"]=768,["caves_challenge_completed"]=false,["is_fullscreen"]=false,["puzzle_challenge_completed"]=false,["music_volume"]=0.5,["player_is_wearing_hat"]=false}
+SDL2: set EGL_OPENGL_ES3_BIT_KHR
+MALI_CreateWindow:0x559ed6d480 done.
+{["orange_medal_obtained"]=false,["config_show_speedrun_timer"]=false,["has_watched_start_animation"]=true,["temple_challenge_completed"]=false,["purple_medal_obtained"]=false,["red_medal_obtained"]=false,["resolution_width"]=1024,["config_effects_disabled"]=true,["config_screenshake_disabled"]=true,["config_particles_disabled"]=true,["config_vibration_disabled"]=false,["lowest_jumps_record"]=1,["has_finished_the_game"]=false,["sounds_volume"]=0.5,["jungle_challenge_completed"]=false,["green_medal_obtained"]=false,["yellow_medal_obtained"]=false,["blue_medal_obtained"]=false,["resolution_height"]=768,["caves_challenge_completed"]=false,["is_fullscreen"]=false,["puzzle_challenge_completed"]=false,["music_volume"]=0.5,["player_is_wearing_hat"]=false}
+Tileset file not found: 	tile_sets/collision.lua
+Tileset file not found: 	tile_sets/entities-sheet.lua
+Tileset file not found: 	tile_sets/test.lua
+Tileset file not found: 	tile_sets/spike-sheet.lua
+Tileset file not found: 	tile_sets/sarasa.lua
+Tileset file not found: 	tile_sets/collision.lua
+Tileset file not found: 	tile_sets/entities-sheet.lua
+Tileset file not found: 	tile_sets/spike-sheet.lua
+Tileset file not found: 	tile_sets/collision.lua
+Tileset file not found: 	tile_sets/entities-sheet.lua
+Tileset file not found: 	tile_sets/spike-sheet.lua
+Tileset file not found: 	tile_sets/collision.lua
+Tileset file not found: 	tile_sets/entities-sheet.lua
+Tileset file not found: 	tile_sets/spike-sheet.lua
+Save file updated successfully

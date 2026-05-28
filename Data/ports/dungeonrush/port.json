@@ -1,0 +1,46 @@
+{
+    "version": 4,
+    "name": "dungeonrush.zip",
+    "items": [
+        "DungeonRush.sh",
+        "dungeonrush/"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "DungeonRush",
+        "desc": "A opensource game inspired by Snake, written in pure C with SDL",
+        "inst": "Ready to run.",
+        "genres": [
+            "rpg"
+        ],
+        "porter": [
+            "Bamboozler"
+        ],
+        "image": {
+            "screenshot": "screenshot.jpg",
+            "covers": [],
+            "thumbnail": null,
+            "video": null
+        },
+        "rtr": true,
+        "runtime": [],
+        "reqs": [],
+        "arch": [
+            "aarch64"
+        ],
+        "desc_md": null,
+        "inst_md": null,
+        "exp": false,
+        "min_glibc": ""
+    },
+    "status": {
+        "source": "PortMaster",
+        "md5": "2a7f3d131164ed9088b05f055d98cb34",
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "dungeonrush/port.json",
+        "DungeonRush.sh": "DungeonRush.sh",
+        "dungeonrush/": "dungeonrush/"
+    }
+}

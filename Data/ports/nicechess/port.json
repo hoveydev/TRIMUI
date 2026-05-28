@@ -1,0 +1,49 @@
+{
+    "version": 4,
+    "name": "nicechess.zip",
+    "items": [
+        "NiceChess.sh",
+        "nicechess/"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "NiceChess",
+        "porter": [
+            "Slayer366"
+        ],
+        "desc": "NiceChess is built off of Brutal Chess 0.5.2 as its base and updated to use SDL2 along with some nice quality-of-life improvements.\n",
+        "desc_md": null,
+        "inst": "Ready to run",
+        "inst_md": null,
+        "genres": [
+            "strategy"
+        ],
+        "image": {
+            "screenshot": "screenshot.png",
+            "covers": [],
+            "thumbnail": null,
+            "video": null
+        },
+        "rtr": true,
+        "exp": false,
+        "runtime": [],
+        "store": [],
+        "availability": "full",
+        "reqs": [],
+        "arch": [
+            "aarch64",
+            "x86_64"
+        ],
+        "min_glibc": ""
+    },
+    "status": {
+        "source": "PortMaster",
+        "md5": "9b1ef68f51ecde0ef49d229aef341d36",
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "nicechess/port.json",
+        "NiceChess.sh": "NiceChess.sh",
+        "nicechess/": "nicechess/"
+    }
+}

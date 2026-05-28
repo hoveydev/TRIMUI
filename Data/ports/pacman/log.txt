@@ -1,0 +1,6 @@
+./pacman.aarch64: /usr/lib64/libasound.so.2: no version information available (required by /mnt/SDCARD/Data/ports/pacman/libs.aarch64/libfluidsynth.so.1)
+./pacman.aarch64: /usr/lib64/libasound.so.2: no version information available (required by /mnt/SDCARD/Data/ports/pacman/libs.aarch64/libfluidsynth.so.1)
+[GPTK]: Running in UINPUT output mode.
+6069
+6070
+Killed

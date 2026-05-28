@@ -1,0 +1,305 @@
+Loading config file (/mnt/SDCARD/Data/ports/matchstickelegy/gmloader.json)
+Error applying configuration: [json.exception.out_of_range.403] key 'force_platform' not found
+Error while loading the config file
+Loading images...
+Missing: dl_iterate_phdr (0x1401a3d0, 0x55824ea928)
+Missing: ptrace (0x1401a4c0, 0x55824ea928)
+[GPTK]: Running in UINPUT output mode.
+Missing: open (0x180f1e18, 0x55824ea928)
+Missing: statvfs (0x180f1ea8, 0x55824ea928)
+Missing: syslog (0x180f27f8, 0x55824ea928)
+Missing: dl_iterate_phdr (0x180f2880, 0x55824ea928)
+loader/io_util.cpp:13: Failed to stat file 'lib/arm64-v8a/libopenal.so'.
+gmloader/main.cpp:69: Failed initializing module 'libopenal.so'.
+Missing: zError (0x4052fd20, 0x55824ea928)
+Missing: dl_iterate_phdr (0x4052fd50, 0x55824ea928)
+Missing: ioctl (0x4052fe80, 0x55824ea928)
+Missing: fcntl (0x4052fee8, 0x55824ea928)
+Missing: if_nametoindex (0x405300f8, 0x55824ea928)
+Missing: __assert2 (0x40530258, 0x55824ea928)
+Symbol "MemoryManager__Free_2" not found.
+Failed to perform hook for symbol "alBufferMarkNeedsFreed"!
+Failed to perform hook for symbol "_Z23RegisterAndroidKeyEventii"!
+Symbol "ms_freq" not found.
+
+***************************************
+*   YoYo Games Android Runner V0.1    *
+***************************************	 
+Importing GL
+... attemping to import GL2
+Finished importing GL
+Class RunnerJNILib does not have method OpenURL.
+Class RunnerJNILib does not have method SendHighScore.
+Class RunnerJNILib does not have method SendAchievement.
+Class RunnerJNILib does not have method IncrementAchievement.
+Class RunnerJNILib does not have method OpenAchievements.
+Class RunnerJNILib does not have method OpenLeaderboards.
+Class RunnerJNILib does not have method AchievementLoadFriends.
+Class RunnerJNILib does not have method AchievementLoadLeaderboard.
+Class RunnerJNILib does not have method CallExtensionFunction.
+Class RunnerJNILib does not have method AchievementLoadPic.
+Class RunnerJNILib does not have method AchievementShow.
+Class RunnerJNILib does not have method AchievementEvent.
+Class RunnerJNILib does not have method AchievementGetInfo.
+Class RunnerJNILib does not have method AchievementLogin.
+Class RunnerJNILib does not have method AchievementLoginStatus.
+Class RunnerJNILib does not have method AchievementLogout.
+Class RunnerJNILib does not have method EnableAds.
+Class RunnerJNILib does not have method MoveAds.
+Class RunnerJNILib does not have method AdsSetup.
+Class RunnerJNILib does not have method DisableAds.
+Class RunnerJNILib does not have method AdsEvent.
+Class RunnerJNILib does not have method AdsEventPreload.
+Class RunnerJNILib does not have method AdsDisplayWidth.
+Class RunnerJNILib does not have method AdsDisplayHeight.
+Class RunnerJNILib does not have method LeaveRating.
+Class RunnerJNILib does not have method EnableInAppBilling.
+Class RunnerJNILib does not have method RestoreInAppPurchases.
+Class RunnerJNILib does not have method AcquireInAppPurchase.
+Class RunnerJNILib does not have method ConsumeInAppPurchase.
+Class RunnerJNILib does not have method GetInAppPurchaseDetail.
+Class RunnerJNILib does not have method FacebookInit.
+Class RunnerJNILib does not have method FacebookLogin.
+Class RunnerJNILib does not have method FacebookAccessToken.
+Class RunnerJNILib does not have method FacebookUserId.
+Class RunnerJNILib does not have method FacebookGraphRequest.
+Class RunnerJNILib does not have method FacebookDialog.
+Class RunnerJNILib does not have method FacebookInviteDialog.
+Class RunnerJNILib does not have method FacebookLogout.
+Class RunnerJNILib does not have method FacebookLoginStatus.
+Class RunnerJNILib does not have method FacebookCheckPermission.
+Class RunnerJNILib does not have method FacebookRequestPermissions.
+Class RunnerJNILib does not have method HttpGet.
+Class RunnerJNILib does not have method HttpPost.
+Class RunnerJNILib does not have method HttpRequest.
+Class RunnerJNILib does not have method ClearGamepads.
+Class RunnerJNILib does not have method PlayMP3.
+Class RunnerJNILib does not have method StopMP3.
+Class RunnerJNILib does not have method PauseMP3.
+Class RunnerJNILib does not have method ResumeMP3.
+Class RunnerJNILib does not have method SetMP3Volume.
+Class RunnerJNILib does not have method PlayingMP3.
+Class RunnerJNILib does not have method GetDefaultFrameBuffer.
+Class RunnerJNILib does not have method ShowMessage.
+Class RunnerJNILib does not have method setSystemUIVisibilityFlags.
+Class RunnerJNILib does not have method InputString.
+Class RunnerJNILib does not have method ShowQuestion.
+Class RunnerJNILib does not have method ShowMessageAsync.
+Class RunnerJNILib does not have method InputStringAsync.
+Class RunnerJNILib does not have method ShowQuestionAsync.
+Class RunnerJNILib does not have method ShowLogin.
+Class RunnerJNILib does not have method RestrictOrientation.
+Class RunnerJNILib does not have method isNetworkConnected.
+Class RunnerJNILib does not have method CheckPermission.
+Class RunnerJNILib does not have method RequestPermission.
+Class RunnerJNILib does not have method powersaveEnable.
+Class RunnerJNILib does not have method analyticsEvent.
+Class RunnerJNILib does not have method analyticsEventExt.
+Class RunnerJNILib does not have method cloudStringSave.
+Class RunnerJNILib does not have method cloudSynchronise.
+Class RunnerJNILib does not have method DumpUsedMemory.
+Class RunnerJNILib does not have method SetLaunchedFromPlayer.
+Class RunnerJNILib does not have method UsingGL2.
+Class RunnerJNILib does not have method PushLocalNotification.
+Class RunnerJNILib does not have method PushGetLocalNotification.
+Class RunnerJNILib does not have method PushCancelLocalNotification.
+Class RunnerJNILib does not have method GetUDID.
+Class RunnerJNILib does not have method WaitForVsync.
+Class RunnerJNILib does not have method HasVsyncHandler.
+Class RunnerJNILib does not have method VirtualKeyboardToggle.
+Class RunnerJNILib does not have method VirtualKeyboardGetStatus.
+Class RunnerJNILib does not have method VirtualKeyboardGetHeight.
+Class RunnerJNILib does not have method OnKeyboardStringSet.
+Loading APK /mnt/SDCARD/Data/ports/matchstickelegy/matchstickelegy.portJust before strdup
+CommandLine: -game game.droid
+MemoryManager allocated: 87121
+Finished Init
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(246)[r32908]    *
+***************************************	 
+RunnerLoadGame: game.droid
+RunnerLoadGame() - assets/game.droid
+YYG Game launching. Game file: assets/game.droid
+Checking if INIFile exists at assets/options.ini
+INIFile assets/options.ini Exists, loading....
+OpenAL_Setup_FileExists fail in zip - assets/game.yydebug
+Reading File assets/game.droid
+Loaded File assets/game.droid(248668)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad.._FileExists fail in zip - assets/gamecontrollerdb.txt
+Attempting to set gamepadcount to 1
+GAMEPAD: 2 axis values (last) at 0xbf86e9d8
+Class RunnerJNILib does not have method GamepadsCount.
+Class RunnerJNILib does not have method GamepadConnected.
+Class RunnerJNILib does not have method GamepadDescription.
+Class RunnerJNILib does not have method GamepadButtonValues.
+Class RunnerJNILib does not have method GamepadGMLMapping.
+Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 54 global variables
+got 54 instance variables
+got 7 local variables
+ID_STRG
+Create Window
+Init Graphics
+GR_D3D_Init()
+OpenGL: version string OpenGL ES 3.2 build 1.19@6345021
+OpenGL: vendor string Imagination Technologies
+OpenGL GLSL: version string OpenGL ES GLSL ES 3.20 build 1.19@6345021
+Extensions:
+GL_ANDROID_extension_pack_es31a GL_APPLE_texture_format_BGRA8888 GL_EXT_blend_minmax GL_EXT_buffer_storage GL_EXT_clear_texture GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_conservative_depth GL_EXT_copy_image GL_EXT_discard_framebuffer GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_EGL_image_array GL_EXT_float_blend GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_multi_draw_arrays GL_EXT_multisampled_render_to_texture GL_EXT_multisampled_render_to_texture2 GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_primitive_bounding_box GL_EXT_pvrtc_sRGB GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_group_vote GL_EXT_shader_implicit_conversions GL_EXT_shader_io_blocks GL_EXT_shader_non_constant_global_initializers GL_EXT_shader_pixel_local_storage GL_EXT_shader_pixel_local_storage2 GL_EXT_shader_texture_lod GL_EXT_shadow_samplers GL_EXT_sparse_texture GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_cube_map_array GL_EXT_texture_format_BGRA8888 GL_EXT_texture_format_sRGB_override GL_EXT_texture_rg GL_EXT_texture_shadow_lod GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_EXT_YUV_target GL_IMG_framebuffer_downsample GL_IMG_multisampled_render_to_texture GL_IMG_program_binary GL_IMG_read_format GL_IMG_shader_binary GL_IMG_texture_compression_pvrtc GL_IMG_texture_compression_pvrtc2 GL_IMG_texture_format_BGRA8888 GL_IMG_texture_npot GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_debug GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_depth_texture GOpenGL: 24bit depth supported
+OpenGL: packed 24bit depth/8bit stencil supported
+OpenGL: Non-power-of-two textures supported (through extension)
+Texture #1 16,16
+Texture #2 16,16
+Texture #1 16,16
+Texture #2 16,16
+finished(2)!!
+Texture #1 1,1
+Texture #2 1,1
+finished(2)!!
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   272
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   696
+Audio_Load()
+Process Chunk: AGRP   8
+AudioGroup_Load()
+Process Chunk: SPRT   26712
+Process Chunk: BGND   88
+Process Chunk: PATH   8
+Process Chunk: SCPT   88
+Process Chunk: GLOB   8
+Process Chunk: SHDR   8
+Process Chunk: FONT   520
+Process Chunk: TMLN   8
+Process Chunk: OBJT   9464
+Process Chunk: ROOM   124552
+Process Chunk: DAFL   8
+Process Chunk: TPAG   8280
+Process Chunk: CODE   34584
+Process Chunk: VARI   3672
+Process Chunk: FUNC   2456
+Process Chunk: STRG   11368
+Process Chunk: TXTR   25544
+Process Chunk: AUDO   4
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 26 objects:
+	Objects 0: oPlayer
+	Objects 1: oBlock
+	Objects 2: oPaper
+	Objects 3: oBox
+	Objects 4: oLogVertical
+	Objects 5: oLogHorizontal
+	Objects 6: oTorch
+	Objects 7: oTile
+	Objects 8: oWater
+	Objects 9: oOil
+	Objects 10: oWall
+	Objects 11: cont
+	Objects 12: oObject
+	Objects 13: oBurnable
+	Objects 14: oPushable
+	Objects 15: oParticle
+	Objects 16: oRemains
+	Objects 17: oLog
+	Objects 18: oFire
+	Objects 19: oMenu
+	Objects 20: oButton
+	Objects 21: oLevel
+	Objects 22: oTutorial
+	Objects 23: oFireplace
+	Objects 24: oMark
+	Objects 25: oCredits
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+arena    =15355904(0x1a200ea5000)
+ordblks  =41(0x00000029)
+smblks   =0(0x00000000)
+hblks    =2224(0xb659d0000008b0)
+hblkhd   =3405360(0x1207000033f630)
+usmblks  =1079783296(0x405c2f80)
+fsmblks  =1079784376(0x405c33b8)
+uordblks =1079185408(0x40531000)
+fordblks =1079181312(0x40530000)
+keepcost =1076015928(0x4022b338)
+Total memory used = 6394421(0x00619235) bytes
+**********************************.
+Entering main loop.
+**********************************.
+Finished BeginToEnd, default frame buffer is: 0
+Could not look up method getPackageManager, NULL class.
+Class RunnerJNILib does not have field ms_context.
+Could not look up method hasSystemFeature, NULL class.
+android.software.leanback = 0
+MANUFACTURER = JohnnyonFlame
+Texture #3 512,512
+MoveTaskToBack called.
+apk_path /mnt/SDCARD/Data/ports/matchstickelegy/matchstickelegy.port save_dir /mnt/SDCARD/Data/ports/matchstickelegy/save/ pkg_dir com.johnny.loader
+current_mode 1024x768
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 3 /dev/input/event4
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 6 /dev/input/event3
+SDL_UDEV_DEVICEADDED 6 /dev/input/js0
+SDL_UDEV_DEVICEADDED 3 /dev/input/event4
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer
+SDL_UDEV_DEVICEADDED 8 /dev/sequencer2
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+Cursor disabled
+MALI_CreateWindow:0x55bf74c5a0 done.
+Controller 0 ignored (disable_controller = True)

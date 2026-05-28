@@ -1,0 +1,29 @@
+# ROM and game media content
+Roms/
+
+# Runtime/user-generated data
+Saves/
+logs/
+
+# Device/system-generated hidden state
+.pakui/
+.res/
+.system/
+.tmp_update/
+.userdata/
+
+# macOS metadata and temporary artifacts
+.DS_Store
+._*
+.fseventsd/
+.Spotlight-V100/
+.TemporaryItems/
+.Trashes/
+
+# Large/generated assets not needed for source updates
+Apps/PortMaster/PortMaster/config/images_pm/
+Apps/PortMaster/PortMaster/config/gameinfo_pm.zip
+Apps/PortMaster/PortMaster/libs/*.squashfs
+Data/ports/gameinfo.zip
+Tools/tg5040/RetroArch.pak/.retroarch/cores/mame*_libretro.so
+Tools/tg5040/RetroArch.pak/.retroarch/cores/mess_libretro.so

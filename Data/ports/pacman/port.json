@@ -1,0 +1,50 @@
+{
+    "version": 4,
+    "name": "pacman.zip",
+    "items": [
+        "Pacman.sh",
+        "pacman/"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "Pacman",
+        "porter": [
+            "Slayer366"
+        ],
+        "desc": "A clone of the original regular ol' Pacman by Namco.  This version is inspired by Paul Neave's Pacman.",
+        "desc_md": null,
+        "inst": "Everything is included and ready to run!",
+        "inst_md": null,
+        "genres": [
+            "arcade"
+        ],
+        "image": {
+            "screenshot": "screenshot.png",
+            "covers": [
+                "cover.png"
+            ],
+            "thumbnail": null,
+            "video": null
+        },
+        "rtr": true,
+        "exp": false,
+        "runtime": [],
+        "reqs": [],
+        "arch": [
+            "aarch64",
+            "armhf",
+            "x86_64"
+        ],
+        "min_glibc": ""
+    },
+    "status": {
+        "source": "PortMaster",
+        "md5": "2d42ce5db2dfaad989fe4375d37a07f6",
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "pacman/port.json",
+        "Pacman.sh": "Pacman.sh",
+        "pacman/": "pacman/"
+    }
+}

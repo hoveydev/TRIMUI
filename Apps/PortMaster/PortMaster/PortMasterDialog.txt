@@ -1,0 +1,175 @@
+#!/bin/bash
+#
+# SPDX-License-Identifier: MIT
+#
+
+if [ ! -z "$PM_PIPE" ]; then
+  return
+fi
+
+if [ ! -d "/dev/shm/portmaster" ]; then
+  $ESUDO mkdir /dev/shm/portmaster
+else
+  $ESUDO rm -f /dev/shm/portmaster/pm_*
+fi
+
+# HarbourMaster pipe commands
+PM_PIPE="/dev/shm/portmaster/pm_input"
+PM_DONE="/dev/shm/portmaster/pm_done"
+PM_PID=""
+
+if [ -z "$PYSDL2_DLL_PATH" ]; then
+  export PYSDL2_DLL_PATH="/usr/lib"
+fi
+
+# Save some variables that are important.
+SAVE_LD_LIBRARY_PATH="$LD_LIBRARY_PATH"
+
+SAVE_SDL_VARS="
+SDL_VIDEODRIVER
+SDL_VIDEO_GL_DRIVER
+SDL_VIDEO_EGL_DRIVER
+SDL_DYNAMIC_API
+SDL_OPENGL_DRIVER
+SDL_RENDER_DRIVER
+SDL_NO_OPENGL
+"
+
+# This will accumulate env arguments
+SAVE_CLEAN_ENV=""
+
+# Loop through variables 
+for VAR in $SAVE_SDL_VARS; do
+  eval "VAL=\${$VAR+set}"
+
+  if [ "$VAL" = "set" ]; then
+    # We keep variables that exist
+    eval "SAVE_CLEAN_ENV=\"$SAVE_CLEAN_ENV $VAR=\${$VAR}\""
+  else
+    # We unset variables that do NOT exist, we also make sure unsets are at the front.
+    SAVE_CLEAN_ENV="-u $VAR $SAVE_CLEAN_ENV"
+  fi
+done
+
+echo "$SAVE_CLEAN_ENV" > ~/pm_dialog.txt
+
+PortMasterIPCheck() {
+  if command -v curl >/dev/null 2>&1; then
+    curl -fsS https://raw.githubusercontent.com/PortsMaster/PortMaster-New/main/README.md 2>/dev/null | grep '## PortMaster'
+  elif command -v ip >/dev/null 2>&1; then
+    # Taken from original PortMaster.sh
+    # https://github.com/christianhaitian/PortMaster/blob/f07bf22b46b1492879392c081e533100d6527dae/PortMaster/PortMaster.sh#L160
+    ip route | awk '/default/ { print $3 }'
+  fi
+}
+
+PortMasterDialogInit() {
+  local wait=0
+
+  if [ ! -e "$PM_PIPE" ]; then
+    printf "WAIT" | $ESUDO tee "$PM_DONE" > /dev/null
+
+    if [[ "$1" == "no-harbour" ]] || [[ "$1" == "no-harbor" ]]; then
+      $ESUDO env $SAVE_CLEAN_ENV LD_LIBRARY_PATH="$SAVE_LD_LIBRARY_PATH" \
+        $controlfolder/pugwash --no-harbour --quiet fifo_control "$PM_PIPE" "$PM_DONE" > /dev/null &
+      PM_PID="$!"
+    elif [[ "$1" == "no-check" ]]; then
+      $ESUDO env $SAVE_CLEAN_ENV LD_LIBRARY_PATH="$SAVE_LD_LIBRARY_PATH" \
+        $controlfolder/pugwash --no-check --quiet fifo_control "$PM_PIPE" "$PM_DONE" > /dev/null &
+      PM_PID="$!"
+    else
+      $ESUDO env $SAVE_CLEAN_ENV LD_LIBRARY_PATH="$SAVE_LD_LIBRARY_PATH" \
+        $controlfolder/pugwash --quiet fifo_control "$PM_PIPE" "$PM_DONE" > /dev/null &
+      PM_PID="$!"
+    fi
+
+    while true
+    do
+      if [ -e "$PM_PIPE" ]; then
+        break
+      fi
+
+      if [ $wait -gt 100 ]; then
+        break
+      fi
+
+      wait=$(expr $wait + 1)
+      sleep 0.1
+    done
+
+    _PortMasterWaitForCmd
+  fi
+}
+
+_PortMasterWaitForCmd() {
+  local RESULT=""
+  local wait=0
+
+  while true
+  do
+    RESULT=$(cat "$PM_DONE")
+
+    if [[ "$RESULT" != "WAIT" ]]; then
+      break
+    fi
+
+    ## TODO: 30 minutes seems like a bit much, but this is for a single command,
+    ##       downstream may have to handle this if it is too short.
+    if [ $wait -gt 6000 ]; then
+      break
+    fi
+
+    wait=$(expr $wait + 1)
+    sleep 0.3
+  done
+}
+
+PortMasterDialogExit() {
+  if [ -e "$PM_PIPE" ]; then
+    echo "exit" | $ESUDO tee "$PM_PIPE" > /dev/null
+    _PortMasterWaitForCmd
+  fi
+
+  $ESUDO rm -f "$PM_PIPE" > /dev/null
+  $ESUDO rm -f "$PM_DONE" > /dev/null
+
+  if [[ "$PM_PID" != "" ]]; then
+    $ESUDO kill -9 "$PM_PID" > /dev/null 2>&1
+    PM_PID=""
+  fi
+}
+
+PortMasterDialog() {
+  # Send a command to pugwash
+  local wait=0
+
+  if [[ ! -z "$1" ]]; then
+    if [ -e "$PM_PIPE" ]; then
+      if [ -f "$PM_DONE" ]; then
+        printf "WAIT" | $ESUDO tee "$PM_DONE" > /dev/null
+      fi
+
+      echo $(printf "%s\1" "$@") | $ESUDO tee $PM_PIPE > /dev/null
+
+      _PortMasterWaitForCmd
+    fi
+  fi
+}
+
+PortMasterDialogResult() {
+  PortMasterDialog "$@"
+
+  echo $(cat "$PM_DONE")
+}
+
+PortMasterDialogMessageBox() {
+  PortMasterDialog "message_box" "$@"
+
+  echo $(cat "$PM_DONE")
+}
+
+PortMasterDialogCheckRuntime() {
+  PortMasterDialog "check_runtime" "$@"
+
+  echo $(cat "$PM_DONE")
+}

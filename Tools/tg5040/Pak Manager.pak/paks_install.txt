@@ -1,0 +1,20 @@
+Gaming|0) BitPal (BITPAL)|Roms
+Gaming|0) Favorites (CUSTOM)|Roms
+Gaming|0) Game Switcher (GS)|Tools
+Settings and Visuals|Artwork|Tools
+Settings and Visuals|Display|Tools
+Utilities|WiFi|Tools
+Media|Artwork|Tools
+Gaming|Add Collection|Tools
+Settings and Visuals|LEDs|Tools
+Utilities|Screen Capture|Tools
+Gaming|Portmaster|Tools
+Media|YouTubeChannels|Tools
+Settings and Visuals|Clock|Tools
+Utilities|USB Storage Mode|Tools
+Utilities|OTA Update|Tools
+Utilities|Files|Tools
+Settings and Visuals|Boot To|Tools
+Gaming|Game Time Tracker|Tools
+Gaming|0) Random Game (RND)|Roms
+Media|Scraper|Tools

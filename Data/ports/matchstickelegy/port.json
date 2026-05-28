@@ -1,0 +1,54 @@
+{
+    "version": 4,
+    "name": "matchstickelegy.zip",
+    "items": [
+        "Matchstick Elegy.sh",
+        "matchstickelegy/"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "Matchstick Elegy",
+        "porter": [
+            "tabreturn"
+        ],
+        "desc": "For the cost of a match, the fire springs to life. The house has become cluttered; burn everything.",
+        "desc_md": null,
+        "inst": "Ready to run.",
+        "inst_md": null,
+        "genres": [
+            "puzzle"
+        ],
+        "image": {
+            "screenshot": "screenshot.png",
+            "covers": [],
+            "thumbnail": null,
+            "video": null
+        },
+        "rtr": true,
+        "exp": false,
+        "runtime": [],
+        "store": [
+            {
+                "name": "itch.io",
+                "gameurl": "https://steven-miller.itch.io/matchstick-elegy",
+                "developerurl": "https://steven-miller.itch.io"
+            }
+        ],
+        "availability": "full",
+        "reqs": [],
+        "arch": [
+            "aarch64"
+        ],
+        "min_glibc": ""
+    },
+    "status": {
+        "source": "PortMaster",
+        "md5": "3a29d74a745d526d049c8c7fb617f64a",
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "matchstickelegy/port.json",
+        "Matchstick Elegy.sh": "Matchstick Elegy.sh",
+        "matchstickelegy/": "matchstickelegy/"
+    }
+}

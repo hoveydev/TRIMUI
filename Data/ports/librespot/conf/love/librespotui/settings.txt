@@ -1,0 +1,3 @@
+autoplay=1
+bitrate=2
+deviceName=TRIMUI

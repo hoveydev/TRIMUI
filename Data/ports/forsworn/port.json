@@ -1,0 +1,55 @@
+{
+    "version": 4,
+    "name": "forsworn.zip",
+    "items": [
+        "Forsworn.sh",
+        "forsworn/"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "Forsworn",
+        "porter": [
+            "Ganimoth"
+        ],
+        "desc": "Forsworn is an atmospheric game about archaic lands and systems. It was inspired by games of old, like The Legend of Zelda, and some modern games like Yume Nikki, and Animal Well. It follows a knight in ESTAERIA, seeking to put these lands to rest, by piercing the WORLD HEART.",
+        "desc_md": null,
+        "inst": "Ready to run.",
+        "inst_md": null,
+        "genres": [
+            "platformer"
+        ],
+        "image": {
+            "screenshot": "screenshot.png",
+            "covers": [],
+            "thumbnail": null,
+            "video": null
+        },
+        "rtr": true,
+        "exp": false,
+        "runtime": [
+            "godot_4.5.squashfs",
+            "weston_pkg_0.2.squashfs"
+        ],
+        "store": [
+            {
+                "name": "Itch.io",
+                "gameurl": "https://dreamveilgames.itch.io/forsworn",
+                "developerurl": ""
+            }
+        ],
+        "availability": "full",
+        "reqs": [],
+        "arch": [],
+        "min_glibc": ""
+    },
+    "status": {
+        "source": "PortMaster",
+        "md5": "ed67367bae8df024c85aaa47e971e16d",
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "forsworn/port.json",
+        "Forsworn.sh": "Forsworn.sh",
+        "forsworn/": "forsworn/"
+    }
+}

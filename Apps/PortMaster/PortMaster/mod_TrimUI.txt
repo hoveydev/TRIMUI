@@ -1,0 +1,61 @@
+#!/bin/bash
+#
+# SPDX-License-Identifier: MIT
+#
+
+## Modular - TRIMUI
+# 
+# A modular file that is sourced for specific script lines required by ports running on TRIMUI STOCK or CrossMix.
+#
+# usage `[ -f "${controlfolder}/mod_${CFW_NAME}.txt" ] && source "${controlfolder}/mod_${CFW_NAME}.txt"`
+
+# Set virtual screen
+CUR_TTY="/dev/fd/1"
+
+# Use for Godot 2
+GODOT2_OPTS="-r ${DISPLAY_WIDTH}x${DISPLAY_HEIGHT} -f"
+
+# Use for Godot 3+
+GODOT_OPTS="--resolution ${DISPLAY_WIDTH}x${DISPLAY_HEIGHT} -f"
+
+# Fix squashfs runtime mounts
+[ ! -d "/mnt/SDCARD/Data/home" ] && mkdir "/mnt/SDCARD/Data/home"
+export HOME="/mnt/SDCARD/Data/home"
+
+# RetroArch configuration for TrimUI
+# DEBUG: Log what's happening
+echo "[mod_TrimUI DEBUG] CFW_NAME=$CFW_NAME" >> /tmp/trimui_debug.log
+echo "[mod_TrimUI DEBUG] controlfolder=$controlfolder" >> /tmp/trimui_debug.log
+
+# Create symlink from retroarch to ra64.trimui if it doesn't exist
+if [ -f "/mnt/SDCARD/Tools/tg5040/RetroArch.pak/ra64.trimui" ]; then
+  echo "[mod_TrimUI DEBUG] Found ra64.trimui at /mnt/SDCARD/Tools/tg5040/RetroArch.pak/" >> /tmp/trimui_debug.log
+  if [ ! -f "/mnt/SDCARD/Tools/tg5040/RetroArch.pak/retroarch" ]; then
+    echo "[mod_TrimUI DEBUG] Creating symlink..." >> /tmp/trimui_debug.log
+    ln -sf "/mnt/SDCARD/Tools/tg5040/RetroArch.pak/ra64.trimui" "/mnt/SDCARD/Tools/tg5040/RetroArch.pak/retroarch"
+  else
+    echo "[mod_TrimUI DEBUG] Symlink already exists" >> /tmp/trimui_debug.log
+  fi
+else
+  echo "[mod_TrimUI DEBUG] ra64.trimui NOT found at /mnt/SDCARD/Tools/tg5040/RetroArch.pak/" >> /tmp/trimui_debug.log
+fi
+
+# Set RetroArch binary location and configuration
+if [ -f "/mnt/SDCARD/Tools/tg5040/RetroArch.pak/retroarch" ]; then
+  echo "[mod_TrimUI DEBUG] Setting raloc=/mnt/SDCARD/Tools/tg5040/RetroArch.pak" >> /tmp/trimui_debug.log
+  export raloc="/mnt/SDCARD/Tools/tg5040/RetroArch.pak"
+  export raconf=""
+else
+  echo "[mod_TrimUI DEBUG] retroarch binary NOT found after symlink attempt" >> /tmp/trimui_debug.log
+fi
+
+echo "[mod_TrimUI DEBUG] raloc=$raloc" >> /tmp/trimui_debug.log
+echo "[mod_TrimUI DEBUG] raconf=$raconf" >> /tmp/trimui_debug.log
+
+pm_platform_helper() {
+    if [ -e "$PM_PIPE" ]; then
+        PortMasterDialogExit
+    fi
+
+    printf ""
+}

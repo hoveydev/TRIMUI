@@ -1,0 +1,74 @@
+Game Time Tracker|__HEADER__|header
+[25m] samesame2|/mnt/SDCARD/Roms/Arcade (FBN)/samesame2.zip|ATARI|1|1513|25m|launch|1513
+[8m] Home Run ~ Baseball|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Home Run ~ Baseball (USA).a26|ATARI|1|516|8m|launch|516
+[8m] in 1 Game Cartridge|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/32 in 1 Game Cartridge (Europe).a26|ATARI|1|499|8m|launch|499
+[7m] Simple Sokoban|/mnt/SDCARD/Roms/PORTS/Simple Sokoban.sh|PORTS|2|443|7m|launch|5
+[7m] Backyard Baseball|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Backyard Baseball.zip|GBA|1|421|7m|launch|421
+[6m] EntroPipes|/mnt/SDCARD/Roms/PORTS/EntroPipes.sh|PORTS|2|374|6m|launch|8
+[6m] Pokemon Heart & Soul|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Pokemon Heart & Soul.gba|GBA|7|373|6m|launch|71
+[6m] tetris|/mnt/SDCARD/Roms/Arcade (FBN)/tetris.zip|FBN|1|360|6m|launch|360
+[5m] SpongeBob SquarePants - Legend of the Lost Spatula|/mnt/SDCARD/Roms/Game Boy Color (GBC)/SpongeBob SquarePants - Legend of the Lost Spatula (USA, Europe).zip|GBC|1|358|5m|launch|358
+[5m] Backyard Baseball 2006|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Backyard Baseball 2006.zip|GBA|1|333|5m|launch|333
+[5m] Pancake|/mnt/SDCARD/Roms/Game & Watch (GW)/Pancake (VTech, Time & Fun).zip|GW|1|308|5m|launch|308
+[4m] Deal or No Deal|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Deal or No Deal.zip|GBA|1|280|4m|launch|280
+[4m] Top Gear Pocket 2|/mnt/SDCARD/Roms/Game Boy Color (GBC)/Top Gear Pocket 2 (USA).zip|GBC|1|273|4m|launch|273
+[4m] Pin Bowling|/mnt/SDCARD/Roms/Game Boy Color (GBC)/10-Pin Bowling (USA).zip|GBC|1|261|4m|launch|261
+[4m] Drake and Josh|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Drake and Josh.zip|GBA|1|241|4m|launch|241
+[3m] Terrahawks The Battlehawk|/mnt/SDCARD/Roms/Game & Watch (GW)/Terrahawks The Battlehawk.zip|GW|1|231|3m|launch|231
+[3m] Escape|/mnt/SDCARD/Roms/PORTS/Escape.sh|PORTS|2|226|3m|launch|7
+[3m] Super Mario Bros. Deluxe|/mnt/SDCARD/Roms/Game Boy Color (GBC)/Super Mario Bros. Deluxe (USA, Europe) (Rev A).zip|GBC|2|214|3m|launch|27
+[3m] Mario's Bombs Away|/mnt/SDCARD/Roms/Game & Watch (GW)/Mario's Bombs Away (Nintendo, Panorama Screen).zip|GW|2|213|3m|launch|51
+[3m] Survival Run|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Survival Run (USA).a26|ATARI|1|200|3m|launch|200
+[3m] Banana|/mnt/SDCARD/Roms/Game & Watch (GW)/Banana (VTech, Time & Fun).zip|GW|1|195|3m|launch|195
+[3m] Pokemon Unbound 2.1.1|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Pokemon Unbound 2.1.1.gba|GBA|1|189|3m|launch|189
+[2m] Motor Cross|/mnt/SDCARD/Roms/Game & Watch (GW)/Motor Cross (Queentex).zip|GW|2|177|2m|launch|18
+[2m] Monkey|/mnt/SDCARD/Roms/Game & Watch (GW)/Monkey (VTech, Time & Fun).zip|GW|1|176|2m|launch|176
+[2m] gundamex|/mnt/SDCARD/Roms/Arcade (FBN)/gundamex.zip|FBN|1|158|2m|launch|158
+[2m] Dinothawr|/mnt/SDCARD/Roms/PORTS/Dinothawr.sh|PORTS|2|137|2m|launch|18
+[2m] burglarx|/mnt/SDCARD/Roms/Arcade (FBN)/burglarx.zip|FBN|1|136|2m|launch|136
+[2m] Human Cannonball ~ Cannon Man|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Human Cannonball ~ Cannon Man (USA).a26|ATARI|1|128|2m|launch|128
+[2m] 111Acid Drop|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/111Acid Drop (Europe).a26|ATARI|1|125|2m|launch|125
+[2m] Parachute|/mnt/SDCARD/Roms/Game & Watch (GW)/Parachute (Nintendo, Wide Screen).zip|GW|1|124|2m|launch|124
+[2m] Adventures of TRON|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Adventures of TRON (USA).a26|ATARI|1|122|2m|launch|122
+[2m] Donkey Kong|/mnt/SDCARD/Roms/Game & Watch (GW)/Donkey Kong (Coleco).zip|GW|1|122|2m|launch|122
+[2m] aliencha|/mnt/SDCARD/Roms/Arcade (FBN)/aliencha.zip|FBN|1|122|2m|launch|122
+[2m] Dragonfire|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Dragonfire (USA).a26|ATARI|1|120|2m|launch|120
+[1m] Lil Jumps|/mnt/SDCARD/Roms/PORTS/100 Lil Jumps.sh|PORTS|1|118|1m|launch|118
+[1m] Lifeboat|/mnt/SDCARD/Roms/Game & Watch (GW)/Lifeboat (Nintendo, Multi Screen).zip|GW|1|115|1m|launch|115
+[1m] Surf's Up|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Surf's Up (USA) (Proto).a26|ATARI|1|115|1m|launch|115
+[1m] Turtle Bridge|/mnt/SDCARD/Roms/Game & Watch (GW)/Turtle Bridge (Nintendo, Wide Screen).zip|GW|1|112|1m|launch|112
+[1m] desertbr|/mnt/SDCARD/Roms/Arcade (FBN)/desertbr.zip|FBN|1|111|1m|launch|111
+[1m] Malagai|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Malagai (USA).a26|ATARI|1|107|1m|launch|107
+[1m] Fowling|/mnt/SDCARD/Roms/Game & Watch (GW)/Fowling (Elektronika).zip|GW|1|102|1m|launch|102
+[1m] Congo Bongo|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Congo Bongo (USA).a26|ATARI|1|98|1m|launch|98
+[1m] Burning Desire|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Burning Desire (Europe).a26|ATARI|1|92|1m|launch|92
+[1m] Centipede|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Centipede (Europe).a26|ATARI|1|92|1m|launch|92
+[1m] Box Puzzle|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/Box Puzzle.zip|GBA|1|89|1m|launch|89
+[1m] Explorers of Space|/mnt/SDCARD/Roms/Game & Watch (GW)/Explorers of Space (Elektronika).zip|GW|1|86|1m|launch|86
+[1m] Star Voyager|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Star Voyager (USA).a26|ATARI|1|84|1m|launch|84
+[1m] Chroma|/mnt/SDCARD/Roms/PORTS/Chroma.sh|PORTS|2|79|1m|launch|72
+[1m] Deadly Duck|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Deadly Duck (USA).a26|ATARI|1|74|1m|launch|74
+[1m] rohga|/mnt/SDCARD/Roms/Arcade (FBN)/rohga.zip|FBN|1|63|1m|launch|63
+[1m] 1944|/mnt/SDCARD/Roms/Arcade (FBN)/1944.zip|GBC|1|60|1m|launch|60
+[55s] Looney Tunes|/mnt/SDCARD/Roms/Game Boy (GB)/Looney Tunes (USA, Europe).zip|GB|1|55|55s|launch|55
+[47s] Monkey Jump|/mnt/SDCARD/Roms/Game & Watch (GW)/Monkey Jump (VTech, Arcade Time & Fun).zip|GW|1|47|47s|launch|47
+[41s] guwange|/mnt/SDCARD/Roms/Arcade (FBN)/guwange.zip|FBN|1|41|41s|launch|41
+[38s] Yu-gi-oh!-worldwide edition - stairway to the destined duel.zip|/mnt/SDCARD/Roms/Game Boy Advance (GBA)/.res/Yu-gi-oh!-worldwide edition - stairway to the destined duel.zip.png|GBA|1|38|38s|launch|38
+[36s] airattck|/mnt/SDCARD/Roms/Arcade (FBN)/airattck.zip|FBN|1|36|36s|launch|36
+[29s] Mickey Mouse|/mnt/SDCARD/Roms/Game & Watch (GW)/Mickey Mouse (Nintendo, Panorama Screen).zip|GW|1|29|29s|launch|29
+[22s] Dynamate Playdate|/mnt/SDCARD/Roms/PORTS/Dynamate Playdate.sh|PORTS|2|22|22s|launch|9
+[21s] D Tic-Tac-Toe|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/3-D Tic-Tac-Toe (Europe).7z|ATARI|1|21|21s|launch|21
+[20s] neogeo|/mnt/SDCARD/Roms/Arcade (FBN)/neogeo.zip|ATARI|1|20|20s|launch|20
+[19s] Air Raid|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Air Raid (USA).7z|ATARI|1|19|19s|launch|19
+[19s] Air-Sea Battle|/mnt/SDCARD/Roms/Atari 2600 (ATARI)/Air-Sea Battle (Europe).7z|ATARI|1|19|19s|launch|19
+[17s] Castelian|/mnt/SDCARD/Roms/Game Boy (GB)/Castelian (Europe).zip|GB|1|17|17s|launch|17
+[16s] UDLR Modify|/mnt/SDCARD/Roms/PORTS/UDLR_Modify.sh|PORTS|1|16|16s|launch|16
+[14s] Spotify Connect|/mnt/SDCARD/Roms/PORTS/Spotify Connect.sh|PORTS|1|14|14s|launch|14
+[13s] Matchstick Elegy|/mnt/SDCARD/Roms/PORTS/Matchstick Elegy.sh|PORTS|1|13|13s|launch|13
+[11s] DungeonRush|/mnt/SDCARD/Roms/PORTS/DungeonRush.sh|PORTS|1|11|11s|launch|11
+[10s] 2048|/mnt/SDCARD/Roms/PORTS/2048.sh|PORTS|1|10|10s|launch|10
+[10s] Me and My Shadow|/mnt/SDCARD/Roms/PORTS/Me and My Shadow.sh|PORTS|2|10|10s|launch|5
+[10s] NiceChess|/mnt/SDCARD/Roms/PORTS/NiceChess.sh|PORTS|2|10|10s|launch|5
+[10s] SnOut|/mnt/SDCARD/Roms/PORTS/SnOut.sh|PORTS|1|10|10s|launch|10
+[10s] fireshrk|/mnt/SDCARD/Roms/Arcade (FBN)/fireshrk.zip|GW|1|10|10s|launch|10
+[9s] Forsworn|/mnt/SDCARD/Roms/PORTS/Forsworn.sh|PORTS|1|9|9s|launch|9

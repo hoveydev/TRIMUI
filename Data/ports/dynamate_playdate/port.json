@@ -1,0 +1,47 @@
+{
+    "version": 4,
+    "name": "dynamate_playdate.zip",
+    "items": [
+        "Dynamate Playdate.sh",
+        "dynamate_playdate/"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "Dynamate Playdate",
+        "desc": "Dynamate is a puzzle game where the aim of the game, in any level, is to clear the level of the numbered / colored pieces. Pieces can be removed in a predefined way by moving another piece into them. There are also pieces affecting the currently moving piece. This is a port of the Playdate Version which was based on the gp2x version of the game.",
+        "inst": "Ready to run.",
+        "genres": [
+            "puzzle"
+        ],
+        "porter": [
+            "Joyrider3774"
+        ],
+        "image": {
+            "screenshot": "screenshot.jpg",
+            "covers": [],
+            "thumbnail": null,
+            "video": null
+        },
+        "rtr": true,
+        "runtime": [],
+        "reqs": [],
+        "arch": [
+            "aarch64",
+            "armhf"
+        ],
+        "desc_md": null,
+        "inst_md": null,
+        "exp": false,
+        "min_glibc": ""
+    },
+    "status": {
+        "source": "PortMaster",
+        "md5": "7509a07dac576254348f1b52a163907e",
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "dynamate_playdate/port.json",
+        "Dynamate Playdate.sh": "Dynamate Playdate.sh",
+        "dynamate_playdate/": "dynamate_playdate/"
+    }
+}
